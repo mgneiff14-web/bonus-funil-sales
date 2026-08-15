@@ -1,0 +1,766 @@
+2026-06-24 00:06:14 | IP: 2804:d45:c52c:7a00:b524:d9db:abea:3e61 | Status: REQUISIÇÃO INICIADA
+2026-06-24 00:06:14 | IP: 2804:d45:c52c:7a00:b524:d9db:abea:3e61 | Nome: Julia Rodrigues Souza | Valor: R$ 85,00
+2026-06-24 00:06:20 | IP: 2804:d45:c52c:7a00:b524:d9db:abea:3e61 | Status: REQUISIÇÃO INICIADA
+2026-06-24 00:06:20 | IP: 2804:d45:c52c:7a00:b524:d9db:abea:3e61 | Nome: Bruno Alves Rodrigues | Valor: R$ 85,00
+2026-06-24 00:19:27 | IP: 146.19.88.39 | Status: REQUISIÇÃO INICIADA
+2026-06-24 00:19:27 | IP: 146.19.88.39 | Nome: Thiago Ferreira Costa | Valor: R$ 85,00
+2026-06-24 00:24:51 | IP: 45.170.152.185 | Status: REQUISIÇÃO INICIADA
+2026-06-24 00:24:51 | IP: 45.170.152.185 | Nome: Sofia Alves Lima | Valor: R$ 85,00
+2026-06-24 00:25:04 | IP: 66.249.74.137 | Status: REQUISIÇÃO INICIADA
+2026-06-24 00:25:04 | IP: 66.249.74.137 | Nome: Manuela Rodrigues Almeida | Valor: R$ 85,00
+2026-06-24 00:25:09 | IP: 66.249.74.137 | Status: REQUISIÇÃO INICIADA
+2026-06-24 00:25:09 | IP: 66.249.74.137 | Nome: Bruno Santos Martins | Valor: R$ 85,00
+2026-06-24 00:25:46 | IP: 146.19.88.39 | Status: REQUISIÇÃO INICIADA
+2026-06-24 00:25:46 | IP: 146.19.88.39 | Nome: Isabella Ribeiro Lima | Valor: R$ 85,00
+2026-06-24 00:29:15 | IP: 146.19.88.39 | Status: REQUISIÇÃO INICIADA
+2026-06-24 00:29:15 | IP: 146.19.88.39 | Nome: Sofia Rodrigues Santos | Valor: R$ 85,00
+2026-06-24 03:02:07 | IP: 2804:389:b126:e981:fd4f:f02e:247:5084 | Status: REQUISIÇÃO INICIADA
+2026-06-24 03:02:07 | IP: 2804:389:b126:e981:fd4f:f02e:247:5084 | Nome: Gabriel Souza Pereira | Valor: R$ 85,00
+2026-06-24 03:10:51 | IP: 200.24.99.217 | Status: REQUISIÇÃO INICIADA
+2026-06-24 03:10:51 | IP: 200.24.99.217 | Nome: Laura Pereira Barbosa | Valor: R$ 85,00
+2026-06-24 03:11:35 | IP: 2804:389:b126:e981:fd4f:f02e:247:5084 | Status: REQUISIÇÃO INICIADA
+2026-06-24 03:11:35 | IP: 2804:389:b126:e981:fd4f:f02e:247:5084 | Nome: Sophia Oliveira Barbosa | Valor: R$ 85,00
+2026-06-24 16:42:56 | IP: 187.113.160.210 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:42:56 | IP: 187.113.160.210 | Nome: Alice Santos Ribeiro | Valor: R$ 85,00
+2026-06-24 16:43:46 | IP: 138.118.58.55 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:43:46 | IP: 138.118.58.55 | Nome: Clara Ribeiro Souza | Valor: R$ 85,00
+2026-06-24 16:46:44 | IP: 45.170.152.185 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:46:44 | IP: 45.170.152.185 | Nome: Lucas Costa Pereira | Valor: R$ 85,00
+2026-06-24 16:46:48 | IP: 45.170.152.185 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:46:48 | IP: 45.170.152.185 | Nome: Sofia Ferreira Oliveira | Valor: R$ 85,00
+2026-06-24 16:47:27 | IP: 45.227.249.207 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:47:27 | IP: 45.227.249.207 | Nome: Arthur Oliveira Vieira | Valor: R$ 85,00
+2026-06-24 16:49:11 | IP: 2804:33cc:1403:8900:89ec:3b4b:a375:e294 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:49:11 | IP: 2804:33cc:1403:8900:89ec:3b4b:a375:e294 | Nome: Manuela Lopes Martins | Valor: R$ 85,00
+2026-06-24 16:49:16 | IP: 2804:389:10db:2361:47ec:f399:c60b:3011 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:49:16 | IP: 2804:389:10db:2361:47ec:f399:c60b:3011 | Nome: Rafael Oliveira Almeida | Valor: R$ 85,00
+2026-06-24 16:50:09 | IP: 200.102.75.235 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:50:09 | IP: 200.102.75.235 | Nome: Manuela Soares Lima | Valor: R$ 85,00
+2026-06-24 16:52:24 | IP: 45.188.65.18 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:52:24 | IP: 45.188.65.18 | Nome: Sophia Costa Lima | Valor: R$ 85,00
+2026-06-24 16:54:39 | IP: 191.55.24.252 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:54:39 | IP: 191.55.24.252 | Nome: Bruno Silva Ferreira | Valor: R$ 85,00
+2026-06-24 16:56:36 | IP: 66.178.7.151 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:56:36 | IP: 66.178.7.151 | Nome: Maria Fernandes Rodrigues | Valor: R$ 85,00
+2026-06-24 16:56:59 | IP: 177.92.162.8 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:56:59 | IP: 177.92.162.8 | Nome: Maria Ribeiro Souza | Valor: R$ 85,00
+2026-06-24 16:58:34 | IP: 2804:18:18b0:b917:1:0:c0c6:7a63 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:58:34 | IP: 2804:18:18b0:b917:1:0:c0c6:7a63 | Nome: Luiza Carvalho Lopes | Valor: R$ 85,00
+2026-06-24 16:59:14 | IP: 45.167.55.214 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:59:14 | IP: 45.167.55.214 | Nome: Bernardo Soares Martins | Valor: R$ 85,00
+2026-06-24 16:59:23 | IP: 177.92.162.8 | Status: REQUISIÇÃO INICIADA
+2026-06-24 16:59:23 | IP: 177.92.162.8 | Nome: Isabella Barbosa Santos | Valor: R$ 85,00
+2026-06-24 17:00:13 | IP: 177.131.189.49 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:00:13 | IP: 177.131.189.49 | Nome: Julia Barbosa Gomes | Valor: R$ 85,00
+2026-06-24 17:01:41 | IP: 177.66.181.70 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:01:41 | IP: 177.66.181.70 | Nome: Luiza Carvalho Santos | Valor: R$ 85,00
+2026-06-24 17:02:04 | IP: 177.131.189.49 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:02:04 | IP: 177.131.189.49 | Nome: Alice Carvalho Gomes | Valor: R$ 85,00
+2026-06-24 17:02:23 | IP: 2804:7f0:a211:b8c8:6c58:ead7:234a:ab2d | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:02:23 | IP: 2804:7f0:a211:b8c8:6c58:ead7:234a:ab2d | Nome: Bruno Lima Vieira | Valor: R$ 85,00
+2026-06-24 17:05:31 | IP: 191.38.226.27 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:05:31 | IP: 191.38.226.27 | Nome: Pedro Fernandes Vieira | Valor: R$ 85,00
+2026-06-24 17:06:28 | IP: 177.152.99.58 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:06:28 | IP: 177.152.99.58 | Nome: Rafael Santos Lima | Valor: R$ 85,00
+2026-06-24 17:10:16 | IP: 2804:389:f2b3:82bd:5635:9743:8396:a116 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:10:16 | IP: 2804:389:f2b3:82bd:5635:9743:8396:a116 | Nome: Luiza Soares Oliveira | Valor: R$ 85,00
+2026-06-24 17:10:48 | IP: 170.83.14.101 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:10:48 | IP: 170.83.14.101 | Nome: Arthur Pereira Gomes | Valor: R$ 85,00
+2026-06-24 17:11:30 | IP: 2804:14c:ce86:4e37:81b9:e4c:82a2:b0f2 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:11:30 | IP: 2804:14c:ce86:4e37:81b9:e4c:82a2:b0f2 | Nome: Valentina Souza Carvalho | Valor: R$ 85,00
+2026-06-24 17:11:39 | IP: 177.234.190.147 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:11:39 | IP: 177.234.190.147 | Nome: Felipe Carvalho Lima | Valor: R$ 85,00
+2026-06-24 17:11:49 | IP: 2804:29c4:3fa:4a00:e4b3:e230:7e3d:973 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:11:49 | IP: 2804:29c4:3fa:4a00:e4b3:e230:7e3d:973 | Nome: Sofia Costa Barbosa | Valor: R$ 85,00
+2026-06-24 17:12:25 | IP: 2804:2468:4a3b:6f00:49af:6736:c806:4d46 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:12:25 | IP: 2804:2468:4a3b:6f00:49af:6736:c806:4d46 | Nome: Rafael Barbosa Souza | Valor: R$ 85,00
+2026-06-24 17:14:31 | IP: 2804:1e68:8a08:9af2:589:b6bd:f3fd:6d56 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:14:31 | IP: 2804:1e68:8a08:9af2:589:b6bd:f3fd:6d56 | Nome: Julia Barbosa Lopes | Valor: R$ 85,00
+2026-06-24 17:14:55 | IP: 2804:33cc:1403:8900:6c12:e43d:6a89:eacc | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:14:55 | IP: 2804:33cc:1403:8900:6c12:e43d:6a89:eacc | Nome: Felipe Pereira Martins | Valor: R$ 85,00
+2026-06-24 17:17:16 | IP: 2804:56c:ff4c:c600:1942:4e50:1f77:636 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:17:16 | IP: 2804:56c:ff4c:c600:1942:4e50:1f77:636 | Nome: Mariana Santos Oliveira | Valor: R$ 85,00
+2026-06-24 17:21:41 | IP: 2804:14d:4034:81a5:d0ed:e758:cfdf:120c | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:21:41 | IP: 2804:14d:4034:81a5:d0ed:e758:cfdf:120c | Nome: Daniel Carvalho Oliveira | Valor: R$ 85,00
+2026-06-24 17:22:18 | IP: 2804:33cc:1403:8900:6c12:e43d:6a89:eacc | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:22:18 | IP: 2804:33cc:1403:8900:6c12:e43d:6a89:eacc | Nome: Luiza Gomes Carvalho | Valor: R$ 85,00
+2026-06-24 17:22:19 | IP: 2804:1084:beb4:0:19fa:2fc1:4887:15bf | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:22:19 | IP: 2804:1084:beb4:0:19fa:2fc1:4887:15bf | Nome: Bernardo Barbosa Martins | Valor: R$ 85,00
+2026-06-24 17:23:59 | IP: 131.221.162.8 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:23:59 | IP: 131.221.162.8 | Nome: Pedro Carvalho Almeida | Valor: R$ 85,00
+2026-06-24 17:26:34 | IP: 170.83.14.155 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:26:34 | IP: 170.83.14.155 | Nome: Sofia Carvalho Ribeiro | Valor: R$ 85,00
+2026-06-24 17:28:46 | IP: 138.97.87.42 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:28:46 | IP: 138.97.87.42 | Nome: Carlos Rodrigues Ferreira | Valor: R$ 85,00
+2026-06-24 17:29:20 | IP: 2804:e4c:3ee9:b4:f100:86f5:e698:8a8a | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:29:20 | IP: 2804:e4c:3ee9:b4:f100:86f5:e698:8a8a | Nome: Alice Silva Lopes | Valor: R$ 85,00
+2026-06-24 17:30:23 | IP: 168.227.82.8 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:30:23 | IP: 168.227.82.8 | Nome: Laura Almeida Vieira | Valor: R$ 85,00
+2026-06-24 17:30:23 | IP: 2804:fc:8d73:4500:2b68:5a72:6f65:3510 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:30:23 | IP: 2804:fc:8d73:4500:2b68:5a72:6f65:3510 | Nome: Bernardo Costa Oliveira | Valor: R$ 85,00
+2026-06-24 17:30:23 | IP: 45.70.216.236 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:30:23 | IP: 45.70.216.236 | Nome: Mariana Barbosa Costa | Valor: R$ 85,00
+2026-06-24 17:30:34 | IP: 2804:18:700e:f1bd:8487:5486:33ae:189 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:30:34 | IP: 2804:18:700e:f1bd:8487:5486:33ae:189 | Nome: Sofia Pereira Ribeiro | Valor: R$ 85,00
+2026-06-24 17:33:10 | IP: 2804:14d:1489:8d48:99d0:ee38:1605:9945 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:33:10 | IP: 2804:14d:1489:8d48:99d0:ee38:1605:9945 | Nome: Helena Lopes Oliveira | Valor: R$ 85,00
+2026-06-24 17:34:13 | IP: 177.10.141.189 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:34:13 | IP: 177.10.141.189 | Nome: Daniel Lima Ribeiro | Valor: R$ 85,00
+2026-06-24 17:34:16 | IP: 45.183.217.1 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:34:16 | IP: 45.183.217.1 | Nome: Bernardo Lima Rodrigues | Valor: R$ 85,00
+2026-06-24 17:34:54 | IP: 2804:1e0:7f23:380:3846:9ff:35d1:bf42 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:34:54 | IP: 2804:1e0:7f23:380:3846:9ff:35d1:bf42 | Nome: Isabella Soares Lopes | Valor: R$ 85,00
+2026-06-24 17:35:29 | IP: 2804:14d:3290:53a8:895b:b0dc:6f6e:6365 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:35:29 | IP: 2804:14d:3290:53a8:895b:b0dc:6f6e:6365 | Nome: Matheus Oliveira Barbosa | Valor: R$ 85,00
+2026-06-24 17:35:39 | IP: 2804:389:a462:27f4:18bc:1cb9:9377:a90d | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:35:39 | IP: 2804:389:a462:27f4:18bc:1cb9:9377:a90d | Nome: Miguel Barbosa Ribeiro | Valor: R$ 85,00
+2026-06-24 17:36:05 | IP: 45.185.157.39 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:36:05 | IP: 45.185.157.39 | Nome: Valentina Pereira Alves | Valor: R$ 85,00
+2026-06-24 17:37:27 | IP: 2804:1088:8000:2e4d:6914:c77c:ad27:fe11 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:37:27 | IP: 2804:1088:8000:2e4d:6914:c77c:ad27:fe11 | Nome: Beatriz Barbosa Santos | Valor: R$ 85,00
+2026-06-24 17:38:29 | IP: 186.195.237.15 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:38:29 | IP: 186.195.237.15 | Nome: Valentina Silva Gomes | Valor: R$ 85,00
+2026-06-24 17:38:40 | IP: 190.115.101.102 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:38:40 | IP: 190.115.101.102 | Nome: Gustavo Soares Gomes | Valor: R$ 85,00
+2026-06-24 17:39:38 | IP: 45.185.157.39 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:39:38 | IP: 45.185.157.39 | Nome: Valentina Vieira Fernandes | Valor: R$ 85,00
+2026-06-24 17:39:51 | IP: 179.60.168.148 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:39:51 | IP: 179.60.168.148 | Nome: Alice Alves Almeida | Valor: R$ 85,00
+2026-06-24 17:42:17 | IP: 2804:1d1c:8020:bb00:2414:8192:64a0:8ee4 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:42:17 | IP: 2804:1d1c:8020:bb00:2414:8192:64a0:8ee4 | Nome: João Lima Lopes | Valor: R$ 85,00
+2026-06-24 17:43:32 | IP: 186.195.237.15 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:43:32 | IP: 186.195.237.15 | Nome: Thiago Souza Gomes | Valor: R$ 85,00
+2026-06-24 17:43:37 | IP: 45.183.217.1 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:43:37 | IP: 45.183.217.1 | Nome: Felipe Ribeiro Ferreira | Valor: R$ 85,00
+2026-06-24 17:44:11 | IP: 186.216.39.6 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:44:11 | IP: 186.216.39.6 | Nome: Bruno Almeida Vieira | Valor: R$ 85,00
+2026-06-24 17:45:17 | IP: 2804:1128:bc07:1d00:4155:7a1d:c0c8:ec5e | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:45:17 | IP: 2804:1128:bc07:1d00:4155:7a1d:c0c8:ec5e | Nome: Rafael Lima Oliveira | Valor: R$ 85,00
+2026-06-24 17:46:22 | IP: 177.234.190.147 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:46:22 | IP: 177.234.190.147 | Nome: Alice Gomes Alves | Valor: R$ 85,00
+2026-06-24 17:46:42 | IP: 2804:4b9c:48:2500:505:6714:cd3c:34e2 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:46:42 | IP: 2804:4b9c:48:2500:505:6714:cd3c:34e2 | Nome: Matheus Ribeiro Silva | Valor: R$ 85,00
+2026-06-24 17:48:17 | IP: 2804:18:118:bd61:bc4d:744e:3eef:b3e2 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:48:17 | IP: 2804:18:118:bd61:bc4d:744e:3eef:b3e2 | Nome: Helena Fernandes Fernandes | Valor: R$ 85,00
+2026-06-24 17:48:17 | IP: 45.227.64.186 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:48:17 | IP: 45.227.64.186 | Nome: Thiago Costa Pereira | Valor: R$ 85,00
+2026-06-24 17:48:58 | IP: 2804:1b1:8ac2:d1dc:bc75:1b31:3e0f:e145 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:48:58 | IP: 2804:1b1:8ac2:d1dc:bc75:1b31:3e0f:e145 | Nome: Bruno Ferreira Lima | Valor: R$ 85,00
+2026-06-24 17:50:30 | IP: 2804:7174:c606:7440:6c96:c941:ac94:1123 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:50:30 | IP: 2804:7174:c606:7440:6c96:c941:ac94:1123 | Nome: Clara Santos Alves | Valor: R$ 85,00
+2026-06-24 17:50:32 | IP: 2804:14d:be8a:81f7:99b:39ae:3bd2:45fb | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:50:32 | IP: 2804:14d:be8a:81f7:99b:39ae:3bd2:45fb | Nome: Miguel Soares Alves | Valor: R$ 85,00
+2026-06-24 17:50:53 | IP: 2804:7174:c606:7440:6c96:c941:ac94:1123 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:50:53 | IP: 2804:7174:c606:7440:6c96:c941:ac94:1123 | Nome: Daniel Almeida Rodrigues | Valor: R$ 85,00
+2026-06-24 17:52:01 | IP: 177.36.181.118 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:52:01 | IP: 177.36.181.118 | Nome: Carlos Soares Gomes | Valor: R$ 85,00
+2026-06-24 17:53:01 | IP: 2804:2648:8b00:12c0:54d4:4546:28a5:eae5 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:53:01 | IP: 2804:2648:8b00:12c0:54d4:4546:28a5:eae5 | Nome: Isabella Silva Fernandes | Valor: R$ 85,00
+2026-06-24 17:56:06 | IP: 177.10.141.189 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:56:06 | IP: 177.10.141.189 | Nome: Daniel Silva Oliveira | Valor: R$ 85,00
+2026-06-24 17:56:20 | IP: 191.186.139.62 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:56:20 | IP: 191.186.139.62 | Nome: Alice Soares Fernandes | Valor: R$ 85,00
+2026-06-24 17:57:36 | IP: 2804:389:b238:794:18bb:a779:10eb:5d7f | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:57:36 | IP: 2804:389:b238:794:18bb:a779:10eb:5d7f | Nome: Sophia Fernandes Costa | Valor: R$ 85,00
+2026-06-24 17:58:22 | IP: 181.174.210.174 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:58:22 | IP: 181.174.210.174 | Nome: Thiago Ribeiro Ribeiro | Valor: R$ 85,00
+2026-06-24 17:58:38 | IP: 2804:14c:ce86:4e37:81b9:e4c:82a2:b0f2 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:58:38 | IP: 2804:14c:ce86:4e37:81b9:e4c:82a2:b0f2 | Nome: Ana Lopes Rodrigues | Valor: R$ 85,00
+2026-06-24 17:59:41 | IP: 190.123.205.223 | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:59:41 | IP: 190.123.205.223 | Nome: Laura Santos Soares | Valor: R$ 85,00
+2026-06-24 17:59:50 | IP: 2804:389:b238:794:18bb:a779:10eb:5d7f | Status: REQUISIÇÃO INICIADA
+2026-06-24 17:59:50 | IP: 2804:389:b238:794:18bb:a779:10eb:5d7f | Nome: Manuela Fernandes Silva | Valor: R$ 85,00
+2026-06-24 18:00:05 | IP: 45.232.190.60 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:00:05 | IP: 45.232.190.60 | Nome: Ana Pereira Lima | Valor: R$ 85,00
+2026-06-24 18:00:19 | IP: 189.38.200.120 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:00:19 | IP: 189.38.200.120 | Nome: Laura Martins Lopes | Valor: R$ 85,00
+2026-06-24 18:00:58 | IP: 2804:d24:5c00:126:24e4:89ec:bc97:4849 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:00:58 | IP: 2804:d24:5c00:126:24e4:89ec:bc97:4849 | Nome: João Vieira Ferreira | Valor: R$ 85,00
+2026-06-24 18:07:58 | IP: 2804:2e40:107:9601:c159:8ba7:388a:6d36 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:07:58 | IP: 2804:2e40:107:9601:c159:8ba7:388a:6d36 | Nome: Daniel Ferreira Martins | Valor: R$ 85,00
+2026-06-24 18:08:20 | IP: 200.192.103.19 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:08:20 | IP: 200.192.103.19 | Nome: Arthur Gomes Rodrigues | Valor: R$ 85,00
+2026-06-24 18:08:35 | IP: 45.70.67.74 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:08:35 | IP: 45.70.67.74 | Nome: Maria Ferreira Fernandes | Valor: R$ 85,00
+2026-06-24 18:08:45 | IP: 168.181.113.94 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:08:45 | IP: 168.181.113.94 | Nome: Felipe Vieira Lima | Valor: R$ 85,00
+2026-06-24 18:10:57 | IP: 138.59.222.167 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:10:57 | IP: 138.59.222.167 | Nome: Lucas Carvalho Oliveira | Valor: R$ 85,00
+2026-06-24 18:11:16 | IP: 45.237.183.254 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:11:16 | IP: 45.237.183.254 | Nome: Sofia Soares Martins | Valor: R$ 85,00
+2026-06-24 18:12:56 | IP: 2804:2984:951d:e400:d013:a8cc:a1b1:e815 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:12:56 | IP: 2804:2984:951d:e400:d013:a8cc:a1b1:e815 | Nome: Miguel Fernandes Vieira | Valor: R$ 85,00
+2026-06-24 18:13:11 | IP: 177.104.242.85 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:13:11 | IP: 177.104.242.85 | Nome: João Fernandes Vieira | Valor: R$ 85,00
+2026-06-24 18:13:29 | IP: 2804:8b30:10:9012:6703:7f05:e63d:56ac | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:13:29 | IP: 2804:8b30:10:9012:6703:7f05:e63d:56ac | Nome: Rafael Vieira Ribeiro | Valor: R$ 85,00
+2026-06-24 18:14:21 | IP: 177.20.245.24 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:14:21 | IP: 177.20.245.24 | Nome: João Souza Souza | Valor: R$ 85,00
+2026-06-24 18:14:22 | IP: 179.245.144.18 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:14:22 | IP: 179.245.144.18 | Nome: Manuela Vieira Almeida | Valor: R$ 85,00
+2026-06-24 18:14:39 | IP: 74.244.223.64 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:14:39 | IP: 74.244.223.64 | Nome: Lucas Soares Fernandes | Valor: R$ 85,00
+2026-06-24 18:14:46 | IP: 2804:1484:8000:f34:f189:e21c:e833:7382 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:14:46 | IP: 2804:1484:8000:f34:f189:e21c:e833:7382 | Nome: Ana Soares Santos | Valor: R$ 85,00
+2026-06-24 18:15:11 | IP: 2804:8b30:10:9012:6703:7f05:e63d:56ac | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:15:11 | IP: 2804:8b30:10:9012:6703:7f05:e63d:56ac | Nome: Isabella Martins Ribeiro | Valor: R$ 85,00
+2026-06-24 18:15:37 | IP: 177.20.245.24 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:15:37 | IP: 177.20.245.24 | Nome: Rafael Vieira Oliveira | Valor: R$ 85,00
+2026-06-24 18:15:57 | IP: 177.20.245.24 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:15:57 | IP: 177.20.245.24 | Nome: Matheus Oliveira Martins | Valor: R$ 85,00
+2026-06-24 18:16:15 | IP: 2804:14d:4c61:8074:a7b9:cf5a:609d:f407 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:16:15 | IP: 2804:14d:4c61:8074:a7b9:cf5a:609d:f407 | Nome: Bernardo Vieira Lopes | Valor: R$ 85,00
+2026-06-24 18:16:31 | IP: 2804:2474:350e:4200:c9a4:d525:faa7:9b30 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:16:31 | IP: 2804:2474:350e:4200:c9a4:d525:faa7:9b30 | Nome: Helena Costa Alves | Valor: R$ 85,00
+2026-06-24 18:17:03 | IP: 2803:9810:4011:b808:c0a2:d9e7:60f4:89c5 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:17:03 | IP: 2803:9810:4011:b808:c0a2:d9e7:60f4:89c5 | Nome: Beatriz Santos Rodrigues | Valor: R$ 85,00
+2026-06-24 18:17:04 | IP: 2804:3128:2600:e21a:506d:386:f895:1f66 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:17:04 | IP: 2804:3128:2600:e21a:506d:386:f895:1f66 | Nome: Miguel Pereira Santos | Valor: R$ 85,00
+2026-06-24 18:20:07 | IP: 2804:d84:2342:600:f458:4bc5:88aa:2037 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:20:07 | IP: 2804:d84:2342:600:f458:4bc5:88aa:2037 | Nome: Clara Lopes Silva | Valor: R$ 85,00
+2026-06-24 18:22:01 | IP: 2804:4f60:40d2:3000:f92c:de71:1406:bdd7 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:22:01 | IP: 2804:4f60:40d2:3000:f92c:de71:1406:bdd7 | Nome: Daniel Lopes Rodrigues | Valor: R$ 85,00
+2026-06-24 18:23:11 | IP: 2804:4f60:40d2:3000:f92c:de71:1406:bdd7 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:23:11 | IP: 2804:4f60:40d2:3000:f92c:de71:1406:bdd7 | Nome: Manuela Martins Barbosa | Valor: R$ 85,00
+2026-06-24 18:23:56 | IP: 2804:2984:951d:e400:d013:a8cc:a1b1:e815 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:23:56 | IP: 2804:2984:951d:e400:d013:a8cc:a1b1:e815 | Nome: Manuela Oliveira Alves | Valor: R$ 85,00
+2026-06-24 18:24:00 | IP: 2804:d84:2342:600:f458:4bc5:88aa:2037 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:24:00 | IP: 2804:d84:2342:600:f458:4bc5:88aa:2037 | Nome: Helena Lima Souza | Valor: R$ 85,00
+2026-06-24 18:24:17 | IP: 2804:14c:bba4:9a2d:9a2:ca46:8126:5f8f | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:24:17 | IP: 2804:14c:bba4:9a2d:9a2:ca46:8126:5f8f | Nome: Bernardo Martins Silva | Valor: R$ 85,00
+2026-06-24 18:25:13 | IP: 201.140.249.94 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:25:13 | IP: 201.140.249.94 | Nome: Isabella Ferreira Fernandes | Valor: R$ 85,00
+2026-06-24 18:26:06 | IP: 177.42.208.232 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:26:06 | IP: 177.42.208.232 | Nome: Valentina Almeida Barbosa | Valor: R$ 85,00
+2026-06-24 18:27:07 | IP: 179.108.39.64 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:27:07 | IP: 179.108.39.64 | Nome: Miguel Lopes Ribeiro | Valor: R$ 85,00
+2026-06-24 18:27:18 | IP: 45.188.204.42 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:27:18 | IP: 45.188.204.42 | Nome: Manuela Alves Gomes | Valor: R$ 85,00
+2026-06-24 18:27:19 | IP: 2804:1b5c:117b:3200:2d8b:fe55:4bbb:87ea | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:27:19 | IP: 2804:1b5c:117b:3200:2d8b:fe55:4bbb:87ea | Nome: Mariana Pereira Almeida | Valor: R$ 85,00
+2026-06-24 18:27:47 | IP: 187.62.82.171 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:27:47 | IP: 187.62.82.171 | Nome: Arthur Ribeiro Rodrigues | Valor: R$ 85,00
+2026-06-24 18:27:50 | IP: 2804:7f0:67e1:7ee8:fc9c:1126:9a8e:45b0 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:27:50 | IP: 2804:7f0:67e1:7ee8:fc9c:1126:9a8e:45b0 | Nome: Miguel Ferreira Lima | Valor: R$ 85,00
+2026-06-24 18:29:41 | IP: 2804:14c:c1:81dd:ed44:2dc2:6315:fcb7 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:29:41 | IP: 2804:14c:c1:81dd:ed44:2dc2:6315:fcb7 | Nome: Lucas Souza Pereira | Valor: R$ 85,00
+2026-06-24 18:29:42 | IP: 2804:18:4011:6357:1:0:1f6:9f41 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:29:42 | IP: 2804:18:4011:6357:1:0:1f6:9f41 | Nome: Isabella Santos Ribeiro | Valor: R$ 85,00
+2026-06-24 18:29:44 | IP: 2804:60:137:cd00:6125:b3d3:d91:aac0 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:29:44 | IP: 2804:60:137:cd00:6125:b3d3:d91:aac0 | Nome: Alice Souza Carvalho | Valor: R$ 85,00
+2026-06-24 18:31:11 | IP: 2804:214:9a02:f9fd:18bc:19c1:7e25:f070 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:31:11 | IP: 2804:214:9a02:f9fd:18bc:19c1:7e25:f070 | Nome: Alice Souza Almeida | Valor: R$ 85,00
+2026-06-24 18:31:13 | IP: 2804:60:137:cd00:6125:b3d3:d91:aac0 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:31:13 | IP: 2804:60:137:cd00:6125:b3d3:d91:aac0 | Nome: Rafael Almeida Oliveira | Valor: R$ 85,00
+2026-06-24 18:33:08 | IP: 2804:4b0:108e:be00:de07:4b32:8604:ad59 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:33:08 | IP: 2804:4b0:108e:be00:de07:4b32:8604:ad59 | Nome: Pedro Martins Costa | Valor: R$ 85,00
+2026-06-24 18:35:59 | IP: 2804:3050:1013:b030:9024:4581:b071:8b7f | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:35:59 | IP: 2804:3050:1013:b030:9024:4581:b071:8b7f | Nome: Sofia Ribeiro Carvalho | Valor: R$ 85,00
+2026-06-24 18:38:19 | IP: 2804:29b8:503c:327b:8d27:60e8:44d6:f206 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:38:19 | IP: 2804:29b8:503c:327b:8d27:60e8:44d6:f206 | Nome: Julia Lopes Carvalho | Valor: R$ 85,00
+2026-06-24 18:38:50 | IP: 2804:30f8:227:5a00:c989:6cd8:d16:2b37 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:38:50 | IP: 2804:30f8:227:5a00:c989:6cd8:d16:2b37 | Nome: Rafael Soares Lopes | Valor: R$ 85,00
+2026-06-24 18:39:41 | IP: 2804:d84:2342:600:f458:4bc5:88aa:2037 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:39:41 | IP: 2804:d84:2342:600:f458:4bc5:88aa:2037 | Nome: Gabriel Costa Ribeiro | Valor: R$ 85,00
+2026-06-24 18:40:09 | IP: 2804:145c:c8fd:ca00:c30c:83e2:3dc2:4753 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:40:09 | IP: 2804:145c:c8fd:ca00:c30c:83e2:3dc2:4753 | Nome: Bernardo Costa Barbosa | Valor: R$ 85,00
+2026-06-24 18:40:56 | IP: 168.195.209.3 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:40:56 | IP: 168.195.209.3 | Nome: Daniel Costa Lima | Valor: R$ 85,00
+2026-06-24 18:41:54 | IP: 177.72.199.143 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:41:54 | IP: 177.72.199.143 | Nome: Beatriz Ferreira Ferreira | Valor: R$ 85,00
+2026-06-24 18:42:08 | IP: 2804:18:1973:abab:fdcd:eb02:71ff:9d93 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:42:08 | IP: 2804:18:1973:abab:fdcd:eb02:71ff:9d93 | Nome: João Alves Lopes | Valor: R$ 85,00
+2026-06-24 18:42:10 | IP: 2804:3278:c20e:8c00:f436:70fc:dc09:bc02 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:42:10 | IP: 2804:3278:c20e:8c00:f436:70fc:dc09:bc02 | Nome: Laura Pereira Fernandes | Valor: R$ 85,00
+2026-06-24 18:42:33 | IP: 2804:18:1973:abab:fdcd:eb02:71ff:9d93 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:42:33 | IP: 2804:18:1973:abab:fdcd:eb02:71ff:9d93 | Nome: Laura Gomes Gomes | Valor: R$ 85,00
+2026-06-24 18:45:26 | IP: 45.227.112.109 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:45:26 | IP: 45.227.112.109 | Nome: Lucas Lopes Fernandes | Valor: R$ 85,00
+2026-06-24 18:45:55 | IP: 45.186.121.25 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:45:55 | IP: 45.186.121.25 | Nome: Helena Lopes Almeida | Valor: R$ 85,00
+2026-06-24 18:46:11 | IP: 168.0.137.217 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:46:11 | IP: 168.0.137.217 | Nome: Valentina Souza Lima | Valor: R$ 85,00
+2026-06-24 18:48:40 | IP: 200.9.31.182 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:48:40 | IP: 200.9.31.182 | Nome: Pedro Souza Barbosa | Valor: R$ 85,00
+2026-06-24 18:49:46 | IP: 177.190.142.94 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:49:46 | IP: 177.190.142.94 | Nome: Beatriz Lopes Pereira | Valor: R$ 85,00
+2026-06-24 18:50:35 | IP: 2804:214:a180:b240:f57e:7abd:303f:2826 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:50:35 | IP: 2804:214:a180:b240:f57e:7abd:303f:2826 | Nome: Laura Costa Ribeiro | Valor: R$ 85,00
+2026-06-24 18:50:51 | IP: 2804:d41:c70e:c200:d8d0:eb06:d763:deee | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:50:51 | IP: 2804:d41:c70e:c200:d8d0:eb06:d763:deee | Nome: Sofia Martins Soares | Valor: R$ 85,00
+2026-06-24 18:54:59 | IP: 2804:18:7842:a3fc:18bc:2163:3aee:c878 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:54:59 | IP: 2804:18:7842:a3fc:18bc:2163:3aee:c878 | Nome: Thiago Silva Barbosa | Valor: R$ 85,00
+2026-06-24 18:55:04 | IP: 2804:18:787c:5fcf:18bc:1f72:3a47:ed75 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:55:04 | IP: 2804:18:787c:5fcf:18bc:1f72:3a47:ed75 | Nome: Daniel Oliveira Martins | Valor: R$ 85,00
+2026-06-24 18:58:08 | IP: 187.60.99.154 | Status: REQUISIÇÃO INICIADA
+2026-06-24 18:58:08 | IP: 187.60.99.154 | Nome: Manuela Barbosa Gomes | Valor: R$ 85,00
+2026-06-24 19:06:06 | IP: 2804:14c:5bd8:4941:b1:8e2:bf99:13f4 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:06:06 | IP: 2804:14c:5bd8:4941:b1:8e2:bf99:13f4 | Nome: Thiago Almeida Lima | Valor: R$ 85,00
+2026-06-24 19:27:30 | IP: 177.20.245.24 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:27:30 | IP: 177.20.245.24 | Nome: Mariana Rodrigues Martins | Valor: R$ 85,00
+2026-06-24 19:28:05 | IP: 177.75.207.156 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:28:05 | IP: 177.75.207.156 | Nome: Clara Lopes Fernandes | Valor: R$ 85,00
+2026-06-24 19:31:47 | IP: 177.104.242.85 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:31:47 | IP: 177.104.242.85 | Nome: Alice Vieira Soares | Valor: R$ 85,00
+2026-06-24 19:31:51 | IP: 177.104.242.85 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:31:51 | IP: 177.104.242.85 | Nome: Lucas Ferreira Lima | Valor: R$ 85,00
+2026-06-24 19:35:26 | IP: 45.71.210.139 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:35:26 | IP: 45.71.210.139 | Nome: Isabella Oliveira Lima | Valor: R$ 85,00
+2026-06-24 19:49:15 | IP: 200.66.126.21 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:49:15 | IP: 200.66.126.21 | Nome: Mariana Ribeiro Rodrigues | Valor: R$ 85,00
+2026-06-24 19:49:21 | IP: 2804:5c:59e0:5400:7f00:b03e:c009:2dc7 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:49:21 | IP: 2804:5c:59e0:5400:7f00:b03e:c009:2dc7 | Nome: Sofia Fernandes Pereira | Valor: R$ 85,00
+2026-06-24 19:49:50 | IP: 2804:2558:c080:f300:4454:bb2:5c4a:5dcf | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:49:50 | IP: 2804:2558:c080:f300:4454:bb2:5c4a:5dcf | Nome: Maria Silva Oliveira | Valor: R$ 85,00
+2026-06-24 19:50:53 | IP: 2804:5c:59e0:5400:7f00:b03e:c009:2dc7 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:50:53 | IP: 2804:5c:59e0:5400:7f00:b03e:c009:2dc7 | Nome: Helena Ribeiro Santos | Valor: R$ 85,00
+2026-06-24 19:55:07 | IP: 2804:388:c29c:4839:0:f:9512:ef01 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:55:07 | IP: 2804:388:c29c:4839:0:f:9512:ef01 | Nome: Manuela Pereira Silva | Valor: R$ 85,00
+2026-06-24 19:56:18 | IP: 177.105.161.29 | Status: REQUISIÇÃO INICIADA
+2026-06-24 19:56:18 | IP: 177.105.161.29 | Nome: Arthur Gomes Martins | Valor: R$ 85,00
+2026-06-24 20:00:10 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:00:10 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Nome: Manuela Lima Vieira | Valor: R$ 85,00
+2026-06-24 20:03:06 | IP: 2804:14c:6580:484c:3eb8:b1d2:c56d:607 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:03:06 | IP: 2804:14c:6580:484c:3eb8:b1d2:c56d:607 | Nome: Gabriel Costa Lima | Valor: R$ 85,00
+2026-06-24 20:03:30 | IP: 2804:214:93d3:eeed:f841:cdff:fef2:2504 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:03:30 | IP: 2804:214:93d3:eeed:f841:cdff:fef2:2504 | Nome: Gabriel Fernandes Silva | Valor: R$ 85,00
+2026-06-24 20:03:44 | IP: 2804:aec:8098:b001:2931:5ad3:3741:59ca | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:03:44 | IP: 2804:aec:8098:b001:2931:5ad3:3741:59ca | Nome: Clara Alves Carvalho | Valor: R$ 85,00
+2026-06-24 20:04:42 | IP: 177.137.73.101 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:04:42 | IP: 177.137.73.101 | Nome: Gustavo Silva Silva | Valor: R$ 85,00
+2026-06-24 20:05:01 | IP: 138.99.41.51 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:05:01 | IP: 138.99.41.51 | Nome: Mariana Souza Souza | Valor: R$ 85,00
+2026-06-24 20:05:09 | IP: 2804:18:96c:80f:18bc:1ff4:3b1c:5e8 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:05:09 | IP: 2804:18:96c:80f:18bc:1ff4:3b1c:5e8 | Nome: Arthur Santos Souza | Valor: R$ 85,00
+2026-06-24 20:05:09 | IP: 177.234.186.148 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:05:09 | IP: 177.234.186.148 | Nome: Lucas Costa Pereira | Valor: R$ 85,00
+2026-06-24 20:05:15 | IP: 2804:d4b:7c03:9b00:b1aa:ef38:d6a7:d10b | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:05:15 | IP: 2804:d4b:7c03:9b00:b1aa:ef38:d6a7:d10b | Nome: Isabella Oliveira Santos | Valor: R$ 85,00
+2026-06-24 20:05:24 | IP: 2804:1dd4:c0d3:e500:7dc3:5e2e:65e0:3f34 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:05:24 | IP: 2804:1dd4:c0d3:e500:7dc3:5e2e:65e0:3f34 | Nome: Laura Barbosa Lopes | Valor: R$ 85,00
+2026-06-24 20:05:31 | IP: 2804:4ec:1101:427f:cc89:9ba6:ff65:f25d | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:05:31 | IP: 2804:4ec:1101:427f:cc89:9ba6:ff65:f25d | Nome: Ana Carvalho Lima | Valor: R$ 85,00
+2026-06-24 20:06:24 | IP: 2804:18:4010:c028:1:0:318:2f77 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:06:24 | IP: 2804:18:4010:c028:1:0:318:2f77 | Nome: Thiago Oliveira Santos | Valor: R$ 85,00
+2026-06-24 20:06:40 | IP: 2804:18:841:d921:1:0:79d3:df9c | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:06:40 | IP: 2804:18:841:d921:1:0:79d3:df9c | Nome: Arthur Ferreira Costa | Valor: R$ 85,00
+2026-06-24 20:06:43 | IP: 45.182.105.31 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:06:43 | IP: 45.182.105.31 | Nome: Sophia Barbosa Souza | Valor: R$ 85,00
+2026-06-24 20:06:53 | IP: 131.196.170.37 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:06:53 | IP: 131.196.170.37 | Nome: Gabriel Silva Soares | Valor: R$ 85,00
+2026-06-24 20:07:03 | IP: 2804:d41:b08b:8b00:e4cd:6b2:4db6:2dbe | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:07:03 | IP: 2804:d41:b08b:8b00:e4cd:6b2:4db6:2dbe | Nome: Beatriz Silva Alves | Valor: R$ 85,00
+2026-06-24 20:07:20 | IP: 2804:2894:c100:6369:128b:ecfe:ef6e:5a4 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:07:20 | IP: 2804:2894:c100:6369:128b:ecfe:ef6e:5a4 | Nome: Arthur Alves Gomes | Valor: R$ 85,00
+2026-06-24 20:07:46 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:07:46 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Nome: Beatriz Vieira Souza | Valor: R$ 85,00
+2026-06-24 20:07:49 | IP: 2804:3868:11a9:a900:44fe:d33e:7cee:5dd6 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:07:49 | IP: 2804:3868:11a9:a900:44fe:d33e:7cee:5dd6 | Nome: Lucas Fernandes Costa | Valor: R$ 85,00
+2026-06-24 20:08:38 | IP: 2804:14d:ba61:819d:415a:be98:4da5:364b | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:08:38 | IP: 2804:14d:ba61:819d:415a:be98:4da5:364b | Nome: Arthur Soares Lima | Valor: R$ 85,00
+2026-06-24 20:08:53 | IP: 2804:14d:5481:87c6:d412:7a7b:fb:a060 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:08:53 | IP: 2804:14d:5481:87c6:d412:7a7b:fb:a060 | Nome: Valentina Martins Almeida | Valor: R$ 85,00
+2026-06-24 20:09:27 | IP: 2804:4588:e01:7d6d:201c:40b3:2149:92ea | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:09:27 | IP: 2804:4588:e01:7d6d:201c:40b3:2149:92ea | Nome: Gabriel Pereira Lopes | Valor: R$ 85,00
+2026-06-24 20:09:36 | IP: 2804:8c24:ff45:b500:eee0:c6b7:c05c:ef56 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:09:36 | IP: 2804:8c24:ff45:b500:eee0:c6b7:c05c:ef56 | Nome: Laura Vieira Barbosa | Valor: R$ 85,00
+2026-06-24 20:10:00 | IP: 187.109.206.197 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:10:00 | IP: 187.109.206.197 | Nome: Arthur Almeida Ferreira | Valor: R$ 85,00
+2026-06-24 20:10:14 | IP: 2804:6698:8101:a800:9126:749a:411d:ab7c | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:10:14 | IP: 2804:6698:8101:a800:9126:749a:411d:ab7c | Nome: Beatriz Soares Martins | Valor: R$ 85,00
+2026-06-24 20:10:15 | IP: 45.234.17.57 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:10:15 | IP: 45.234.17.57 | Nome: Matheus Alves Santos | Valor: R$ 85,00
+2026-06-24 20:10:26 | IP: 2804:11c0:5aa:de00:4078:d4b8:77c0:159d | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:10:26 | IP: 2804:11c0:5aa:de00:4078:d4b8:77c0:159d | Nome: Felipe Santos Soares | Valor: R$ 85,00
+2026-06-24 20:10:29 | IP: 170.247.114.141 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:10:29 | IP: 170.247.114.141 | Nome: Luiza Ribeiro Souza | Valor: R$ 85,00
+2026-06-24 20:10:30 | IP: 2804:3568:8081:8560:c700:42b4:b3f2:e728 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:10:30 | IP: 2804:3568:8081:8560:c700:42b4:b3f2:e728 | Nome: Rafael Oliveira Vieira | Valor: R$ 85,00
+2026-06-24 20:10:50 | IP: 187.62.75.0 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:10:50 | IP: 187.62.75.0 | Nome: Daniel Lima Santos | Valor: R$ 85,00
+2026-06-24 20:11:50 | IP: 187.109.206.197 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:11:50 | IP: 187.109.206.197 | Nome: Clara Ferreira Lima | Valor: R$ 85,00
+2026-06-24 20:12:19 | IP: 179.113.200.137 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:12:19 | IP: 179.113.200.137 | Nome: Sofia Oliveira Alves | Valor: R$ 85,00
+2026-06-24 20:13:40 | IP: 149.78.6.198 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:13:40 | IP: 149.78.6.198 | Nome: Ana Carvalho Pereira | Valor: R$ 85,00
+2026-06-24 20:14:42 | IP: 2804:1b3:6700:a55f:31f5:ca6b:a613:2fd | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:14:42 | IP: 2804:1b3:6700:a55f:31f5:ca6b:a613:2fd | Nome: Arthur Barbosa Almeida | Valor: R$ 85,00
+2026-06-24 20:15:20 | IP: 168.197.140.185 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:15:20 | IP: 168.197.140.185 | Nome: Alice Lima Ribeiro | Valor: R$ 85,00
+2026-06-24 20:15:32 | IP: 187.68.176.250 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:15:32 | IP: 187.68.176.250 | Nome: Helena Fernandes Carvalho | Valor: R$ 85,00
+2026-06-24 20:15:33 | IP: 2804:5c:4ecc:2200:dbb8:68cd:e758:7591 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:15:33 | IP: 2804:5c:4ecc:2200:dbb8:68cd:e758:7591 | Nome: Julia Santos Oliveira | Valor: R$ 85,00
+2026-06-24 20:16:50 | IP: 189.89.22.185 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:16:50 | IP: 189.89.22.185 | Nome: Gabriel Gomes Rodrigues | Valor: R$ 85,00
+2026-06-24 20:17:24 | IP: 2804:1b3:8c4c:9664:6428:7140:5297:734b | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:17:24 | IP: 2804:1b3:8c4c:9664:6428:7140:5297:734b | Nome: Gabriel Alves Souza | Valor: R$ 85,00
+2026-06-24 20:17:53 | IP: 2804:389:d103:9c71:a154:d534:5380:226e | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:17:53 | IP: 2804:389:d103:9c71:a154:d534:5380:226e | Nome: Lucas Carvalho Ferreira | Valor: R$ 85,00
+2026-06-24 20:17:57 | IP: 138.117.164.237 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:17:57 | IP: 138.117.164.237 | Nome: Sofia Vieira Rodrigues | Valor: R$ 85,00
+2026-06-24 20:18:23 | IP: 189.89.22.185 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:18:23 | IP: 189.89.22.185 | Nome: Julia Almeida Almeida | Valor: R$ 85,00
+2026-06-24 20:19:24 | IP: 181.77.12.208 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:19:24 | IP: 181.77.12.208 | Nome: Gabriel Martins Lima | Valor: R$ 85,00
+2026-06-24 20:21:06 | IP: 170.80.123.12 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:21:06 | IP: 170.80.123.12 | Nome: Sophia Barbosa Carvalho | Valor: R$ 85,00
+2026-06-24 20:21:14 | IP: 2804:23fc:24b:3d00:70c5:dfba:ba21:b994 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:21:14 | IP: 2804:23fc:24b:3d00:70c5:dfba:ba21:b994 | Nome: Sofia Soares Gomes | Valor: R$ 85,00
+2026-06-24 20:21:33 | IP: 2804:389:d103:9c71:a154:d534:5380:226e | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:21:33 | IP: 2804:389:d103:9c71:a154:d534:5380:226e | Nome: Julia Ribeiro Lopes | Valor: R$ 85,00
+2026-06-24 20:21:33 | IP: 177.185.38.134 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:21:33 | IP: 177.185.38.134 | Nome: Ana Vieira Oliveira | Valor: R$ 85,00
+2026-06-24 20:22:03 | IP: 2804:8d4:367:34a0:d492:a349:af28:b664 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:22:03 | IP: 2804:8d4:367:34a0:d492:a349:af28:b664 | Nome: Daniel Vieira Alves | Valor: R$ 85,00
+2026-06-24 20:22:30 | IP: 191.59.50.157 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:22:30 | IP: 191.59.50.157 | Nome: Julia Rodrigues Alves | Valor: R$ 85,00
+2026-06-24 20:22:45 | IP: 2804:23fc:24b:3d00:70c5:dfba:ba21:b994 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:22:45 | IP: 2804:23fc:24b:3d00:70c5:dfba:ba21:b994 | Nome: Felipe Ferreira Alves | Valor: R$ 85,00
+2026-06-24 20:22:57 | IP: 2804:d59:9204:ae00:61ac:3330:b16b:4493 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:22:57 | IP: 2804:d59:9204:ae00:61ac:3330:b16b:4493 | Nome: Ana Costa Vieira | Valor: R$ 85,00
+2026-06-24 20:22:58 | IP: 45.191.123.138 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:22:58 | IP: 45.191.123.138 | Nome: Bernardo Santos Lima | Valor: R$ 85,00
+2026-06-24 20:25:10 | IP: 2804:bf8:3200:1e00:fb3:46c3:ca4:e90 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:25:10 | IP: 2804:bf8:3200:1e00:fb3:46c3:ca4:e90 | Nome: Clara Costa Costa | Valor: R$ 85,00
+2026-06-24 20:25:33 | IP: 45.70.192.10 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:25:33 | IP: 45.70.192.10 | Nome: Rafael Gomes Barbosa | Valor: R$ 85,00
+2026-06-24 20:26:15 | IP: 168.227.222.117 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:26:15 | IP: 168.227.222.117 | Nome: Luiza Almeida Rodrigues | Valor: R$ 85,00
+2026-06-24 20:26:42 | IP: 2804:14d:5c64:8110:bc78:c592:564e:e65d | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:26:42 | IP: 2804:14d:5c64:8110:bc78:c592:564e:e65d | Nome: Sophia Carvalho Vieira | Valor: R$ 85,00
+2026-06-24 20:28:14 | IP: 2804:56b4:223d:6a00:ed5c:e05f:e2cc:7231 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:28:14 | IP: 2804:56b4:223d:6a00:ed5c:e05f:e2cc:7231 | Nome: Lucas Lima Souza | Valor: R$ 85,00
+2026-06-24 20:28:32 | IP: 2804:6984:3008:e00:55cc:81d0:644:53de | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:28:32 | IP: 2804:6984:3008:e00:55cc:81d0:644:53de | Nome: Matheus Vieira Carvalho | Valor: R$ 85,00
+2026-06-24 20:29:46 | IP: 2804:389:a1c4:5a6:0:64:a241:e001 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:29:46 | IP: 2804:389:a1c4:5a6:0:64:a241:e001 | Nome: Manuela Silva Soares | Valor: R$ 85,00
+2026-06-24 20:29:58 | IP: 2804:2488:9084:b190:c06f:3752:b591:7ad9 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:29:58 | IP: 2804:2488:9084:b190:c06f:3752:b591:7ad9 | Nome: Alice Gomes Alves | Valor: R$ 85,00
+2026-06-24 20:30:03 | IP: 2804:d64:8fb6:2a00:24fc:64ee:88c6:594e | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:30:03 | IP: 2804:d64:8fb6:2a00:24fc:64ee:88c6:594e | Nome: Julia Lima Soares | Valor: R$ 85,00
+2026-06-24 20:30:29 | IP: 2804:d59:aa31:9000:5c7b:7d1c:90e0:c672 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:30:29 | IP: 2804:d59:aa31:9000:5c7b:7d1c:90e0:c672 | Nome: Julia Souza Rodrigues | Valor: R$ 85,00
+2026-06-24 20:30:54 | IP: 2804:7d9c:1139:1301:d9d3:b121:d678:2092 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:30:54 | IP: 2804:7d9c:1139:1301:d9d3:b121:d678:2092 | Nome: Clara Santos Barbosa | Valor: R$ 85,00
+2026-06-24 20:31:20 | IP: 149.78.6.198 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:31:20 | IP: 149.78.6.198 | Nome: Manuela Martins Barbosa | Valor: R$ 85,00
+2026-06-24 20:32:33 | IP: 45.65.231.109 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:32:33 | IP: 45.65.231.109 | Nome: Pedro Vieira Barbosa | Valor: R$ 85,00
+2026-06-24 20:32:54 | IP: 2804:81a8:40f:6000:4af6:a052:efbd:532b | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:32:54 | IP: 2804:81a8:40f:6000:4af6:a052:efbd:532b | Nome: Isabella Alves Lima | Valor: R$ 85,00
+2026-06-24 20:33:28 | IP: 2804:14c:3d86:2bf4:8d95:5aa5:68c1:3f1d | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:33:28 | IP: 2804:14c:3d86:2bf4:8d95:5aa5:68c1:3f1d | Nome: Daniel Barbosa Barbosa | Valor: R$ 85,00
+2026-06-24 20:33:28 | IP: 2804:2488:9084:b190:c06f:3752:b591:7ad9 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:33:28 | IP: 2804:2488:9084:b190:c06f:3752:b591:7ad9 | Nome: Clara Pereira Rodrigues | Valor: R$ 85,00
+2026-06-24 20:34:15 | IP: 177.125.56.115 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:34:15 | IP: 177.125.56.115 | Nome: Felipe Fernandes Almeida | Valor: R$ 85,00
+2026-06-24 20:34:22 | IP: 45.167.37.94 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:34:22 | IP: 45.167.37.94 | Nome: Isabella Pereira Ferreira | Valor: R$ 85,00
+2026-06-24 20:34:58 | IP: 187.86.172.240 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:34:58 | IP: 187.86.172.240 | Nome: Isabella Costa Lopes | Valor: R$ 85,00
+2026-06-24 20:35:49 | IP: 2804:4ec:1101:427f:cc89:9ba6:ff65:f25d | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:35:49 | IP: 2804:4ec:1101:427f:cc89:9ba6:ff65:f25d | Nome: Gabriel Vieira Fernandes | Valor: R$ 85,00
+2026-06-24 20:36:55 | IP: 2804:18:860:2e32:6d2b:5476:d906:eeed | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:36:55 | IP: 2804:18:860:2e32:6d2b:5476:d906:eeed | Nome: Miguel Costa Rodrigues | Valor: R$ 85,00
+2026-06-24 20:37:45 | IP: 2804:30c:195c:8200:d958:f645:d314:9273 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:37:45 | IP: 2804:30c:195c:8200:d958:f645:d314:9273 | Nome: Helena Rodrigues Barbosa | Valor: R$ 85,00
+2026-06-24 20:38:34 | IP: 2804:389:d103:9c71:a154:d534:5380:226e | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:38:34 | IP: 2804:389:d103:9c71:a154:d534:5380:226e | Nome: Sofia Soares Costa | Valor: R$ 85,00
+2026-06-24 20:39:07 | IP: 187.86.172.240 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:39:07 | IP: 187.86.172.240 | Nome: Thiago Souza Vieira | Valor: R$ 85,00
+2026-06-24 20:39:13 | IP: 2804:1b3:9901:dcb2:417d:edf8:320e:bbc3 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:39:13 | IP: 2804:1b3:9901:dcb2:417d:edf8:320e:bbc3 | Nome: Isabella Martins Barbosa | Valor: R$ 85,00
+2026-06-24 20:39:18 | IP: 2804:18:860:2e32:6d2b:5476:d906:eeed | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:39:18 | IP: 2804:18:860:2e32:6d2b:5476:d906:eeed | Nome: Thiago Soares Ribeiro | Valor: R$ 85,00
+2026-06-24 20:39:33 | IP: 187.60.133.252 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:39:33 | IP: 187.60.133.252 | Nome: Alice Pereira Ferreira | Valor: R$ 85,00
+2026-06-24 20:39:44 | IP: 45.6.81.235 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:39:44 | IP: 45.6.81.235 | Nome: João Soares Gomes | Valor: R$ 85,00
+2026-06-24 20:40:42 | IP: 131.0.206.17 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:40:42 | IP: 131.0.206.17 | Nome: Maria Ferreira Barbosa | Valor: R$ 85,00
+2026-06-24 20:40:46 | IP: 2804:214:9b11:3008:18bb:d67a:fae:4b90 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:40:46 | IP: 2804:214:9b11:3008:18bb:d67a:fae:4b90 | Nome: Laura Costa Alves | Valor: R$ 85,00
+2026-06-24 20:43:19 | IP: 2804:18:588b:6cbe:18bc:13ce:2c34:ddf3 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:43:19 | IP: 2804:18:588b:6cbe:18bc:13ce:2c34:ddf3 | Nome: Daniel Rodrigues Barbosa | Valor: R$ 85,00
+2026-06-24 20:43:22 | IP: 2804:23b0:401:6800:3655:b40b:6dd2:6bc7 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:43:22 | IP: 2804:23b0:401:6800:3655:b40b:6dd2:6bc7 | Nome: Valentina Fernandes Carvalho | Valor: R$ 85,00
+2026-06-24 20:44:35 | IP: 2804:214:8886:3a7a:566:5abd:bc9:e86d | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:44:35 | IP: 2804:214:8886:3a7a:566:5abd:bc9:e86d | Nome: Matheus Rodrigues Martins | Valor: R$ 85,00
+2026-06-24 20:45:16 | IP: 2804:40a8:2f1:d100:e083:f3c2:e69f:2f20 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:45:16 | IP: 2804:40a8:2f1:d100:e083:f3c2:e69f:2f20 | Nome: Lucas Lopes Ribeiro | Valor: R$ 85,00
+2026-06-24 20:45:33 | IP: 45.167.37.94 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:45:33 | IP: 45.167.37.94 | Nome: Bruno Rodrigues Gomes | Valor: R$ 85,00
+2026-06-24 20:45:52 | IP: 2804:14d:149b:8238:b978:7559:4e97:aad1 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:45:52 | IP: 2804:14d:149b:8238:b978:7559:4e97:aad1 | Nome: Julia Pereira Alves | Valor: R$ 85,00
+2026-06-24 20:45:57 | IP: 138.118.0.236 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:45:57 | IP: 138.118.0.236 | Nome: Valentina Carvalho Fernandes | Valor: R$ 85,00
+2026-06-24 20:45:59 | IP: 2804:14d:5c65:62ea:5099:eb86:7fbb:2444 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:45:59 | IP: 2804:14d:5c65:62ea:5099:eb86:7fbb:2444 | Nome: Clara Souza Martins | Valor: R$ 85,00
+2026-06-24 20:49:04 | IP: 2804:248:f60f:d400:ec25:453b:62e9:deb6 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:49:04 | IP: 2804:248:f60f:d400:ec25:453b:62e9:deb6 | Nome: Maria Soares Costa | Valor: R$ 85,00
+2026-06-24 20:49:57 | IP: 2804:1edc:8026:9101:298b:872a:4fbc:d4d0 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:49:57 | IP: 2804:1edc:8026:9101:298b:872a:4fbc:d4d0 | Nome: João Lopes Almeida | Valor: R$ 85,00
+2026-06-24 20:51:17 | IP: 189.6.240.244 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:51:17 | IP: 189.6.240.244 | Nome: Manuela Barbosa Martins | Valor: R$ 85,00
+2026-06-24 20:54:37 | IP: 190.115.94.4 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:54:37 | IP: 190.115.94.4 | Nome: Beatriz Ferreira Oliveira | Valor: R$ 85,00
+2026-06-24 20:54:58 | IP: 45.170.152.185 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:54:58 | IP: 45.170.152.185 | Nome: Daniel Costa Rodrigues | Valor: R$ 85,00
+2026-06-24 20:56:01 | IP: 177.104.251.30 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:56:01 | IP: 177.104.251.30 | Nome: Gabriel Lima Alves | Valor: R$ 85,00
+2026-06-24 20:56:01 | IP: 2804:954:fc73:3600:d9d9:9ef4:a0a3:dd79 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:56:01 | IP: 2804:954:fc73:3600:d9d9:9ef4:a0a3:dd79 | Nome: Arthur Barbosa Gomes | Valor: R$ 85,00
+2026-06-24 20:56:24 | IP: 2804:5c68:1045:2000:2d37:fe78:ce0f:4c38 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:56:24 | IP: 2804:5c68:1045:2000:2d37:fe78:ce0f:4c38 | Nome: Beatriz Rodrigues Soares | Valor: R$ 85,00
+2026-06-24 20:56:36 | IP: 2804:14c:96:8dec:73d5:3be1:998f:8858 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:56:36 | IP: 2804:14c:96:8dec:73d5:3be1:998f:8858 | Nome: Maria Vieira Souza | Valor: R$ 85,00
+2026-06-24 20:57:44 | IP: 2804:2984:951d:e400:d013:a8cc:a1b1:e815 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:57:44 | IP: 2804:2984:951d:e400:d013:a8cc:a1b1:e815 | Nome: Laura Martins Ferreira | Valor: R$ 85,00
+2026-06-24 20:59:56 | IP: 131.161.61.42 | Status: REQUISIÇÃO INICIADA
+2026-06-24 20:59:56 | IP: 131.161.61.42 | Nome: Maria Souza Rodrigues | Valor: R$ 85,00
+2026-06-24 21:00:23 | IP: 177.20.245.24 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:00:23 | IP: 177.20.245.24 | Nome: Gabriel Lima Soares | Valor: R$ 85,00
+2026-06-24 21:01:03 | IP: 2804:389:a114:3505:28e2:e2ff:fe7d:9762 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:01:03 | IP: 2804:389:a114:3505:28e2:e2ff:fe7d:9762 | Nome: Pedro Souza Carvalho | Valor: R$ 85,00
+2026-06-24 21:01:53 | IP: 2804:2cb0:4025:fa00:84ed:a15d:fe96:2c5d | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:01:53 | IP: 2804:2cb0:4025:fa00:84ed:a15d:fe96:2c5d | Nome: Gustavo Gomes Ribeiro | Valor: R$ 85,00
+2026-06-24 21:03:04 | IP: 2804:14d:5c65:62ea:5099:eb86:7fbb:2444 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:03:04 | IP: 2804:14d:5c65:62ea:5099:eb86:7fbb:2444 | Nome: Bernardo Lopes Santos | Valor: R$ 85,00
+2026-06-24 21:04:22 | IP: 2804:14d:5c65:62ea:5099:eb86:7fbb:2444 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:04:22 | IP: 2804:14d:5c65:62ea:5099:eb86:7fbb:2444 | Nome: Beatriz Lima Almeida | Valor: R$ 85,00
+2026-06-24 21:04:25 | IP: 66.249.88.103 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:04:25 | IP: 66.249.88.103 | Nome: Beatriz Oliveira Santos | Valor: R$ 85,00
+2026-06-24 21:05:07 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:05:07 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Nome: Helena Martins Silva | Valor: R$ 85,00
+2026-06-24 21:05:25 | IP: 2804:1b3:8801:5b4f:4ecb:edf5:2f82:37ea | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:05:25 | IP: 2804:1b3:8801:5b4f:4ecb:edf5:2f82:37ea | Nome: Matheus Costa Santos | Valor: R$ 85,00
+2026-06-24 21:07:25 | IP: 2804:4afc:8502:2000:245c:a28a:ce19:9dfa | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:07:25 | IP: 2804:4afc:8502:2000:245c:a28a:ce19:9dfa | Nome: Alice Vieira Alves | Valor: R$ 85,00
+2026-06-24 21:08:02 | IP: 2804:1b3:ab00:1759:f1b4:f3d3:8ab0:dafe | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:08:02 | IP: 2804:1b3:ab00:1759:f1b4:f3d3:8ab0:dafe | Nome: Pedro Ferreira Ferreira | Valor: R$ 85,00
+2026-06-24 21:09:51 | IP: 2804:14c:4399:801d:60b8:fb8a:eef6:5c87 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:09:51 | IP: 2804:14c:4399:801d:60b8:fb8a:eef6:5c87 | Nome: Sophia Vieira Ferreira | Valor: R$ 85,00
+2026-06-24 21:11:18 | IP: 2804:5b40:aa3a:be00:3f54:ffc4:2848:bc31 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:11:18 | IP: 2804:5b40:aa3a:be00:3f54:ffc4:2848:bc31 | Nome: Sophia Ribeiro Fernandes | Valor: R$ 85,00
+2026-06-24 21:11:58 | IP: 2804:44cc:5501:2370:cc22:c741:8d50:349e | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:11:58 | IP: 2804:44cc:5501:2370:cc22:c741:8d50:349e | Nome: Gabriel Costa Alves | Valor: R$ 85,00
+2026-06-24 21:12:13 | IP: 205.164.212.132 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:12:13 | IP: 205.164.212.132 | Nome: Helena Alves Ferreira | Valor: R$ 85,00
+2026-06-24 21:12:15 | IP: 2804:d45:996e:db00:1959:87f7:5919:5d2f | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:12:15 | IP: 2804:d45:996e:db00:1959:87f7:5919:5d2f | Nome: Gabriel Oliveira Ferreira | Valor: R$ 85,00
+2026-06-24 21:12:44 | IP: 2804:14c:4399:801d:60b8:fb8a:eef6:5c87 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:12:44 | IP: 2804:14c:4399:801d:60b8:fb8a:eef6:5c87 | Nome: Gabriel Vieira Barbosa | Valor: R$ 85,00
+2026-06-24 21:13:17 | IP: 177.39.99.71 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:13:17 | IP: 177.39.99.71 | Nome: Daniel Oliveira Lopes | Valor: R$ 85,00
+2026-06-24 21:13:46 | IP: 2804:18:145:b9a1:499b:dce6:7935:7146 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:13:46 | IP: 2804:18:145:b9a1:499b:dce6:7935:7146 | Nome: Arthur Ribeiro Carvalho | Valor: R$ 85,00
+2026-06-24 21:13:48 | IP: 177.91.152.43 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:13:48 | IP: 177.91.152.43 | Nome: Alice Soares Souza | Valor: R$ 85,00
+2026-06-24 21:15:23 | IP: 2804:29b8:3004:5107:37da:a922:79f0:ffe | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:15:23 | IP: 2804:29b8:3004:5107:37da:a922:79f0:ffe | Nome: Sophia Lima Silva | Valor: R$ 85,00
+2026-06-24 21:15:52 | IP: 177.17.65.184 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:15:52 | IP: 177.17.65.184 | Nome: Daniel Silva Vieira | Valor: R$ 85,00
+2026-06-24 21:17:23 | IP: 24.152.81.34 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:17:23 | IP: 24.152.81.34 | Nome: Beatriz Vieira Barbosa | Valor: R$ 85,00
+2026-06-24 21:18:51 | IP: 2804:934c:201:6b00:fc7c:b1bf:a630:4c2b | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:18:51 | IP: 2804:934c:201:6b00:fc7c:b1bf:a630:4c2b | Nome: Luiza Oliveira Barbosa | Valor: R$ 85,00
+2026-06-24 21:20:19 | IP: 179.97.85.86 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:20:19 | IP: 179.97.85.86 | Nome: Carlos Ferreira Lima | Valor: R$ 85,00
+2026-06-24 21:20:23 | IP: 189.37.73.32 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:20:23 | IP: 189.37.73.32 | Nome: Ana Soares Pereira | Valor: R$ 85,00
+2026-06-24 21:21:37 | IP: 2804:60:3bc:4f00:a56e:14c1:1cdc:780f | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:21:37 | IP: 2804:60:3bc:4f00:a56e:14c1:1cdc:780f | Nome: Bernardo Pereira Vieira | Valor: R$ 85,00
+2026-06-24 21:21:37 | IP: 2804:bf8:3200:1e00:fb3:46c3:ca4:e90 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:21:37 | IP: 2804:bf8:3200:1e00:fb3:46c3:ca4:e90 | Nome: Valentina Soares Barbosa | Valor: R$ 85,00
+2026-06-24 21:21:48 | IP: 2804:7044:8b00:f05:95f:9c0:b72c:df88 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:21:48 | IP: 2804:7044:8b00:f05:95f:9c0:b72c:df88 | Nome: Sofia Costa Vieira | Valor: R$ 85,00
+2026-06-24 21:21:55 | IP: 186.248.236.208 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:21:55 | IP: 186.248.236.208 | Nome: Thiago Almeida Almeida | Valor: R$ 85,00
+2026-06-24 21:22:00 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:22:00 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Nome: Arthur Lopes Carvalho | Valor: R$ 85,00
+2026-06-24 21:22:06 | IP: 2804:18:157:c93:18bc:adb:3431:f8a1 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:22:06 | IP: 2804:18:157:c93:18bc:adb:3431:f8a1 | Nome: Helena Vieira Soares | Valor: R$ 85,00
+2026-06-24 21:22:32 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:22:32 | IP: 2804:214:818f:499b:24f6:fcce:eb59:91a5 | Nome: Alice Pereira Fernandes | Valor: R$ 85,00
+2026-06-24 21:23:08 | IP: 2804:14c:6572:40b6:b4f0:8a51:76b:902e | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:23:08 | IP: 2804:14c:6572:40b6:b4f0:8a51:76b:902e | Nome: Laura Ferreira Barbosa | Valor: R$ 85,00
+2026-06-24 21:23:59 | IP: 2803:9810:7038:4c08:6098:d7e:fb3d:8549 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:23:59 | IP: 2803:9810:7038:4c08:6098:d7e:fb3d:8549 | Nome: Felipe Carvalho Alves | Valor: R$ 85,00
+2026-06-24 21:24:06 | IP: 2804:250:1018:bc00:207a:97e9:8213:2dcf | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:24:06 | IP: 2804:250:1018:bc00:207a:97e9:8213:2dcf | Nome: Rafael Rodrigues Ribeiro | Valor: R$ 85,00
+2026-06-24 21:24:29 | IP: 2804:7f0:a211:b4d9:c7f0:8fad:37b5:c9ba | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:24:29 | IP: 2804:7f0:a211:b4d9:c7f0:8fad:37b5:c9ba | Nome: Clara Soares Silva | Valor: R$ 85,00
+2026-06-24 21:25:07 | IP: 191.179.116.254 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:25:07 | IP: 191.179.116.254 | Nome: Isabella Gomes Rodrigues | Valor: R$ 85,00
+2026-06-24 21:25:46 | IP: 45.176.150.20 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:25:46 | IP: 45.176.150.20 | Nome: Thiago Silva Souza | Valor: R$ 85,00
+2026-06-24 21:25:50 | IP: 2804:214:82b5:b733:1:2:cf1a:86ac | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:25:50 | IP: 2804:214:82b5:b733:1:2:cf1a:86ac | Nome: Clara Alves Barbosa | Valor: R$ 85,00
+2026-06-24 21:25:58 | IP: 189.27.188.109 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:25:58 | IP: 189.27.188.109 | Nome: Arthur Ribeiro Souza | Valor: R$ 85,00
+2026-06-24 21:26:23 | IP: 189.37.73.32 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:26:23 | IP: 189.37.73.32 | Nome: Clara Silva Martins | Valor: R$ 85,00
+2026-06-24 21:26:34 | IP: 2804:d4b:7619:f300:87de:6612:99d:703b | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:26:34 | IP: 2804:d4b:7619:f300:87de:6612:99d:703b | Nome: Matheus Barbosa Lima | Valor: R$ 85,00
+2026-06-24 21:27:42 | IP: 2804:18:5047:af7b:b45f:4dff:fed0:82d0 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:27:42 | IP: 2804:18:5047:af7b:b45f:4dff:fed0:82d0 | Nome: Julia Gomes Alves | Valor: R$ 85,00
+2026-06-24 21:28:09 | IP: 189.37.73.32 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:28:09 | IP: 189.37.73.32 | Nome: Manuela Santos Costa | Valor: R$ 85,00
+2026-06-24 21:28:38 | IP: 177.12.98.204 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:28:38 | IP: 177.12.98.204 | Nome: Gabriel Costa Carvalho | Valor: R$ 85,00
+2026-06-24 21:28:42 | IP: 2804:1b94:6b5:df00:b5d9:1375:b9f1:2864 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:28:42 | IP: 2804:1b94:6b5:df00:b5d9:1375:b9f1:2864 | Nome: Arthur Carvalho Fernandes | Valor: R$ 85,00
+2026-06-24 21:29:48 | IP: 177.12.98.204 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:29:48 | IP: 177.12.98.204 | Nome: João Gomes Lima | Valor: R$ 85,00
+2026-06-24 21:29:54 | IP: 45.238.120.194 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:29:54 | IP: 45.238.120.194 | Nome: Felipe Lima Ferreira | Valor: R$ 85,00
+2026-06-24 21:31:17 | IP: 177.37.127.125 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:31:17 | IP: 177.37.127.125 | Nome: Thiago Fernandes Martins | Valor: R$ 85,00
+2026-06-24 21:31:42 | IP: 189.37.73.32 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:31:42 | IP: 189.37.73.32 | Nome: Sofia Lopes Costa | Valor: R$ 85,00
+2026-06-24 21:32:16 | IP: 2804:214:82b8:ae40:403b:56ff:fe18:811d | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:32:16 | IP: 2804:214:82b8:ae40:403b:56ff:fe18:811d | Nome: Alice Almeida Alves | Valor: R$ 85,00
+2026-06-24 21:32:30 | IP: 2804:d14:184:2d00:d5cc:4fc1:c55b:65b5 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:32:30 | IP: 2804:d14:184:2d00:d5cc:4fc1:c55b:65b5 | Nome: Rafael Gomes Barbosa | Valor: R$ 85,00
+2026-06-24 21:32:50 | IP: 200.213.114.176 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:32:50 | IP: 200.213.114.176 | Nome: Bruno Alves Vieira | Valor: R$ 85,00
+2026-06-24 21:32:56 | IP: 2804:6eb8:802e:7200:40c8:8ed6:a12:3a2b | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:32:56 | IP: 2804:6eb8:802e:7200:40c8:8ed6:a12:3a2b | Nome: Luiza Lima Ribeiro | Valor: R$ 85,00
+2026-06-24 21:33:15 | IP: 2804:2984:995e:7400:f80e:4633:649a:69cd | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:33:15 | IP: 2804:2984:995e:7400:f80e:4633:649a:69cd | Nome: Mariana Soares Oliveira | Valor: R$ 85,00
+2026-06-24 21:33:33 | IP: 170.83.136.10 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:33:33 | IP: 170.83.136.10 | Nome: Gabriel Gomes Lopes | Valor: R$ 85,00
+2026-06-24 21:34:43 | IP: 2804:14d:789c:8108:eccc:ac1:c94d:ec55 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:34:43 | IP: 2804:14d:789c:8108:eccc:ac1:c94d:ec55 | Nome: Ana Martins Vieira | Valor: R$ 85,00
+2026-06-24 21:34:53 | IP: 2804:fc:8d7b:3c00:b8ac:131a:74cf:4105 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:34:53 | IP: 2804:fc:8d7b:3c00:b8ac:131a:74cf:4105 | Nome: Sofia Martins Alves | Valor: R$ 85,00
+2026-06-24 21:34:58 | IP: 2804:14d:ea84:8635:49d3:69bd:9c39:2360 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:34:58 | IP: 2804:14d:ea84:8635:49d3:69bd:9c39:2360 | Nome: Arthur Soares Santos | Valor: R$ 85,00
+2026-06-24 21:35:25 | IP: 170.150.93.167 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:35:25 | IP: 170.150.93.167 | Nome: Maria Lopes Lima | Valor: R$ 85,00
+2026-06-24 21:35:34 | IP: 179.127.129.30 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:35:34 | IP: 179.127.129.30 | Nome: Luiza Silva Gomes | Valor: R$ 85,00
+2026-06-24 21:36:57 | IP: 2804:14d:5c65:62ea:5099:eb86:7fbb:2444 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:36:57 | IP: 2804:14d:5c65:62ea:5099:eb86:7fbb:2444 | Nome: Beatriz Martins Carvalho | Valor: R$ 85,00
+2026-06-24 21:37:40 | IP: 45.230.3.208 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:37:40 | IP: 45.230.3.208 | Nome: Maria Martins Costa | Valor: R$ 85,00
+2026-06-24 21:38:21 | IP: 2804:d14:184:2d00:d5cc:4fc1:c55b:65b5 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:38:21 | IP: 2804:d14:184:2d00:d5cc:4fc1:c55b:65b5 | Nome: Bernardo Ferreira Ferreira | Valor: R$ 85,00
+2026-06-24 21:38:24 | IP: 170.83.136.10 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:38:24 | IP: 170.83.136.10 | Nome: João Alves Ferreira | Valor: R$ 85,00
+2026-06-24 21:38:37 | IP: 2804:14c:87ca:cbcc:b5eb:7667:8630:416d | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:38:37 | IP: 2804:14c:87ca:cbcc:b5eb:7667:8630:416d | Nome: Julia Rodrigues Souza | Valor: R$ 85,00
+2026-06-24 21:39:02 | IP: 2804:81b4:4303:a829:39:cb4d:a0b0:79cf | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:39:02 | IP: 2804:81b4:4303:a829:39:cb4d:a0b0:79cf | Nome: Beatriz Martins Ribeiro | Valor: R$ 85,00
+2026-06-24 21:39:06 | IP: 2804:4d3c:7040:fd01:18df:57c1:3757:3f94 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:39:06 | IP: 2804:4d3c:7040:fd01:18df:57c1:3757:3f94 | Nome: Luiza Santos Lopes | Valor: R$ 85,00
+2026-06-24 21:39:16 | IP: 2804:108c:d88c:b601:4872:7ca5:61c6:8d9b | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:39:16 | IP: 2804:108c:d88c:b601:4872:7ca5:61c6:8d9b | Nome: Mariana Silva Silva | Valor: R$ 85,00
+2026-06-24 21:39:42 | IP: 200.213.114.176 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:39:42 | IP: 200.213.114.176 | Nome: Beatriz Soares Martins | Valor: R$ 85,00
+2026-06-24 21:39:50 | IP: 2804:33cc:1403:8900:4573:f9ad:f676:7bae | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:39:50 | IP: 2804:33cc:1403:8900:4573:f9ad:f676:7bae | Nome: Beatriz Rodrigues Lima | Valor: R$ 85,00
+2026-06-24 21:40:06 | IP: 45.235.169.110 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:40:06 | IP: 45.235.169.110 | Nome: Laura Alves Almeida | Valor: R$ 85,00
+2026-06-24 21:40:26 | IP: 2804:214:8115:3593:fccb:91ee:bbad:59e9 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:40:26 | IP: 2804:214:8115:3593:fccb:91ee:bbad:59e9 | Nome: Daniel Fernandes Ferreira | Valor: R$ 85,00
+2026-06-24 21:41:26 | IP: 2804:4d3c:7040:fd01:18df:57c1:3757:3f94 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:41:26 | IP: 2804:4d3c:7040:fd01:18df:57c1:3757:3f94 | Nome: João Silva Almeida | Valor: R$ 85,00
+2026-06-24 21:41:29 | IP: 177.71.100.75 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:41:29 | IP: 177.71.100.75 | Nome: Gustavo Vieira Almeida | Valor: R$ 85,00
+2026-06-24 21:41:58 | IP: 2804:81b4:4303:a829:39:cb4d:a0b0:79cf | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:41:58 | IP: 2804:81b4:4303:a829:39:cb4d:a0b0:79cf | Nome: Isabella Martins Alves | Valor: R$ 85,00
+2026-06-24 21:43:07 | IP: 2804:389:a135:7266:0:65:c869:e301 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:43:07 | IP: 2804:389:a135:7266:0:65:c869:e301 | Nome: Thiago Vieira Almeida | Valor: R$ 85,00
+2026-06-24 21:43:27 | IP: 2804:14c:65d1:80bc:8f3a:d5d6:5ed0:ed19 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:43:27 | IP: 2804:14c:65d1:80bc:8f3a:d5d6:5ed0:ed19 | Nome: Julia Santos Costa | Valor: R$ 85,00
+2026-06-24 21:44:18 | IP: 201.218.162.168 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:44:18 | IP: 201.218.162.168 | Nome: Ana Lima Carvalho | Valor: R$ 85,00
+2026-06-24 21:44:28 | IP: 2804:1b3:aac3:34b8:201c:40b3:2149:92ea | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:44:28 | IP: 2804:1b3:aac3:34b8:201c:40b3:2149:92ea | Nome: Bernardo Soares Souza | Valor: R$ 85,00
+2026-06-24 21:44:38 | IP: 2804:c90:f12f:a600:d89b:5452:9300:4fba | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:44:38 | IP: 2804:c90:f12f:a600:d89b:5452:9300:4fba | Nome: Isabella Oliveira Pereira | Valor: R$ 85,00
+2026-06-24 21:45:28 | IP: 177.129.25.82 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:45:28 | IP: 177.129.25.82 | Nome: Pedro Lopes Costa | Valor: R$ 85,00
+2026-06-24 21:45:53 | IP: 186.194.23.147 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:45:53 | IP: 186.194.23.147 | Nome: Bruno Fernandes Silva | Valor: R$ 85,00
+2026-06-24 21:46:09 | IP: 2804:2488:9084:b190:c06f:3752:b591:7ad9 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:46:09 | IP: 2804:2488:9084:b190:c06f:3752:b591:7ad9 | Nome: Matheus Lopes Lima | Valor: R$ 85,00
+2026-06-24 21:47:49 | IP: 45.168.171.231 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:47:49 | IP: 45.168.171.231 | Nome: Pedro Barbosa Santos | Valor: R$ 85,00
+2026-06-24 21:48:39 | IP: 2804:383c:313b:8b72:96c0:9fd1:5362:87a8 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:48:39 | IP: 2804:383c:313b:8b72:96c0:9fd1:5362:87a8 | Nome: Isabella Barbosa Soares | Valor: R$ 85,00
+2026-06-24 21:49:47 | IP: 2804:28c8:a601:9300:a59c:5661:5a58:2ca1 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:49:47 | IP: 2804:28c8:a601:9300:a59c:5661:5a58:2ca1 | Nome: Laura Carvalho Silva | Valor: R$ 85,00
+2026-06-24 21:50:02 | IP: 170.80.60.224 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:50:02 | IP: 170.80.60.224 | Nome: Ana Oliveira Santos | Valor: R$ 85,00
+2026-06-24 21:50:53 | IP: 2804:766c:cb00:abe4:dcf1:13a7:f2ef:ff16 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:50:53 | IP: 2804:766c:cb00:abe4:dcf1:13a7:f2ef:ff16 | Nome: Pedro Costa Martins | Valor: R$ 85,00
+2026-06-24 21:51:52 | IP: 2804:1b0:1902:3c3:fd3b:bcd3:2f12:ecc7 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:51:52 | IP: 2804:1b0:1902:3c3:fd3b:bcd3:2f12:ecc7 | Nome: Gustavo Costa Silva | Valor: R$ 85,00
+2026-06-24 21:51:57 | IP: 170.78.62.3 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:51:57 | IP: 170.78.62.3 | Nome: Clara Silva Gomes | Valor: R$ 85,00
+2026-06-24 21:54:01 | IP: 177.190.77.26 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:54:01 | IP: 177.190.77.26 | Nome: Laura Costa Alves | Valor: R$ 85,00
+2026-06-24 21:55:35 | IP: 2804:7f3:5101:9bb7:5d58:9c1:140d:e527 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:55:35 | IP: 2804:7f3:5101:9bb7:5d58:9c1:140d:e527 | Nome: João Oliveira Costa | Valor: R$ 85,00
+2026-06-24 21:58:19 | IP: 2804:7f3:5101:9bb7:5d58:9c1:140d:e527 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:58:19 | IP: 2804:7f3:5101:9bb7:5d58:9c1:140d:e527 | Nome: Rafael Ribeiro Alves | Valor: R$ 85,00
+2026-06-24 21:58:21 | IP: 2804:4ec:1103:16a0:89ea:8b7a:6d85:a1df | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:58:21 | IP: 2804:4ec:1103:16a0:89ea:8b7a:6d85:a1df | Nome: Lucas Costa Barbosa | Valor: R$ 85,00
+2026-06-24 21:58:30 | IP: 2804:d4b:7619:f300:87de:6612:99d:703b | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:58:30 | IP: 2804:d4b:7619:f300:87de:6612:99d:703b | Nome: Valentina Santos Almeida | Valor: R$ 85,00
+2026-06-24 21:59:10 | IP: 2804:3408:300:5f00:210c:ddc8:c1ca:68c3 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:59:10 | IP: 2804:3408:300:5f00:210c:ddc8:c1ca:68c3 | Nome: João Pereira Carvalho | Valor: R$ 85,00
+2026-06-24 21:59:23 | IP: 45.164.63.160 | Status: REQUISIÇÃO INICIADA
+2026-06-24 21:59:23 | IP: 45.164.63.160 | Nome: Alice Souza Alves | Valor: R$ 85,00
+2026-06-24 22:00:30 | IP: 2804:4ec:1103:16a0:89ea:8b7a:6d85:a1df | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:00:30 | IP: 2804:4ec:1103:16a0:89ea:8b7a:6d85:a1df | Nome: Gustavo Pereira Oliveira | Valor: R$ 85,00
+2026-06-24 22:00:35 | IP: 190.83.53.240 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:00:35 | IP: 190.83.53.240 | Nome: Matheus Fernandes Soares | Valor: R$ 85,00
+2026-06-24 22:00:43 | IP: 177.125.147.36 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:00:43 | IP: 177.125.147.36 | Nome: Gustavo Barbosa Santos | Valor: R$ 85,00
+2026-06-24 22:00:45 | IP: 2804:a74:253:b00:c5e9:b06:18a5:2618 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:00:45 | IP: 2804:a74:253:b00:c5e9:b06:18a5:2618 | Nome: Pedro Barbosa Souza | Valor: R$ 85,00
+2026-06-24 22:02:21 | IP: 2804:d45:d943:8500:1126:5764:783e:e989 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:02:21 | IP: 2804:d45:d943:8500:1126:5764:783e:e989 | Nome: Beatriz Rodrigues Gomes | Valor: R$ 85,00
+2026-06-24 22:02:42 | IP: 2804:928c:2063:8300:2704:a2d9:8a8:10c8 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:02:42 | IP: 2804:928c:2063:8300:2704:a2d9:8a8:10c8 | Nome: Mariana Lopes Fernandes | Valor: R$ 85,00
+2026-06-24 22:03:58 | IP: 177.130.240.141 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:03:58 | IP: 177.130.240.141 | Nome: Sofia Ferreira Lima | Valor: R$ 85,00
+2026-06-24 22:06:44 | IP: 2804:7f0:7200:cdf:630b:3670:15ae:a7d8 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:06:44 | IP: 2804:7f0:7200:cdf:630b:3670:15ae:a7d8 | Nome: Thiago Barbosa Vieira | Valor: R$ 85,00
+2026-06-24 22:08:18 | IP: 2804:389:d1b2:90a6:5057:b3ff:fe9b:a1ff | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:08:18 | IP: 2804:389:d1b2:90a6:5057:b3ff:fe9b:a1ff | Nome: Miguel Fernandes Fernandes | Valor: R$ 85,00
+2026-06-24 22:10:39 | IP: 2804:7b78:401a:c200:bb4c:d989:adc:6f03 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:10:39 | IP: 2804:7b78:401a:c200:bb4c:d989:adc:6f03 | Nome: Thiago Lima Fernandes | Valor: R$ 85,00
+2026-06-24 22:13:15 | IP: 164.163.103.141 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:13:15 | IP: 164.163.103.141 | Nome: Pedro Almeida Fernandes | Valor: R$ 85,00
+2026-06-24 22:16:16 | IP: 177.185.147.51 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:16:16 | IP: 177.185.147.51 | Nome: Isabella Soares Alves | Valor: R$ 85,00
+2026-06-24 22:16:31 | IP: 2605:59c8:6968:e608:98f8:fd56:8a56:db89 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:16:31 | IP: 2605:59c8:6968:e608:98f8:fd56:8a56:db89 | Nome: Bruno Pereira Silva | Valor: R$ 85,00
+2026-06-24 22:17:24 | IP: 45.230.3.208 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:17:24 | IP: 45.230.3.208 | Nome: Clara Carvalho Gomes | Valor: R$ 85,00
+2026-06-24 22:19:38 | IP: 2804:d45:d943:8500:1126:5764:783e:e989 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:19:38 | IP: 2804:d45:d943:8500:1126:5764:783e:e989 | Nome: Alice Alves Martins | Valor: R$ 85,00
+2026-06-24 22:19:38 | IP: 45.230.3.208 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:19:38 | IP: 45.230.3.208 | Nome: Lucas Vieira Lima | Valor: R$ 85,00
+2026-06-24 22:21:49 | IP: 2804:10dc:d12d:bd00:f491:e828:d969:e497 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:21:49 | IP: 2804:10dc:d12d:bd00:f491:e828:d969:e497 | Nome: João Silva Silva | Valor: R$ 85,00
+2026-06-24 22:22:48 | IP: 2804:14c:87ca:cbcc:b5eb:7667:8630:416d | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:22:48 | IP: 2804:14c:87ca:cbcc:b5eb:7667:8630:416d | Nome: Felipe Ribeiro Martins | Valor: R$ 85,00
+2026-06-24 22:23:58 | IP: 138.97.207.135 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:23:58 | IP: 138.97.207.135 | Nome: Mariana Silva Vieira | Valor: R$ 85,00
+2026-06-24 22:25:47 | IP: 168.90.152.66 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:25:47 | IP: 168.90.152.66 | Nome: Carlos Rodrigues Oliveira | Valor: R$ 85,00
+2026-06-24 22:33:50 | IP: 2804:33cc:1403:8900:4573:f9ad:f676:7bae | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:33:50 | IP: 2804:33cc:1403:8900:4573:f9ad:f676:7bae | Nome: Rafael Santos Ferreira | Valor: R$ 85,00
+2026-06-24 22:34:43 | IP: 2a09:bac5:dce:297d::422:47 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:34:43 | IP: 2a09:bac5:dce:297d::422:47 | Nome: Laura Ferreira Santos | Valor: R$ 85,00
+2026-06-24 22:41:17 | IP: 2804:c90:f420:f900:e1f6:ab18:225e:4248 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:41:17 | IP: 2804:c90:f420:f900:e1f6:ab18:225e:4248 | Nome: Matheus Pereira Martins | Valor: R$ 85,00
+2026-06-24 22:54:41 | IP: 167.114.3.106 | Status: REQUISIÇÃO INICIADA
+2026-06-24 22:54:41 | IP: 167.114.3.106 | Nome: Gustavo Lopes Gomes | Valor: R$ 85,00

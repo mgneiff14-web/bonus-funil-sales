@@ -1,0 +1,7 @@
+.git
+node_modules
+# Não empacotar o banco/logs locais — o volume persistente cuida disso
+checkout/database.sqlite
+checkout/logs/
+*.log
+hosted-index.html

@@ -1,0 +1,21 @@
+# SPA fallback para Apache (Hostinger)
+# Serve os arquivos/pastas reais; qualquer outra rota cai no index.html
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Não reescreve arquivos ou diretórios que existem de verdade
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Todo o resto -> index.html (roteamento do React Router)
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Cache dos assets com hash (imutáveis)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|png|jpe?g|svg|webp|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>

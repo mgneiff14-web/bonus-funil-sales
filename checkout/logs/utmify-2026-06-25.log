@@ -1,0 +1,125 @@
+[2026-06-25 01:35:01] 📥 Dados recebidos do PayHubr
+Dados: {
+    "raw": "{\"orderId\":8694714,\"platform\":\"ParadisePags\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2026-06-24T22:33:51-03:00\",\"approvedDate\":\"2026-06-24 22:34:43\",\"paidAt\":\"2026-06-24 22:34:43\",\"refundedAt\":null,\"customer\":{\"name\":\"Rafael Santos Ferreira\",\"email\":\"rafael.santos.ferreira@email.com\",\"phone\":\"11999999999\",\"document\":{\"number\":\"37209794077\",\"type\":\"CPF\"},\"country\":\"BR\",\"ip\":\"2804:33cc:1403:8900:4573:f9ad:f676:7bae\",\"userAgent\":\"Mozilla\\\/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit\\\/605.1.15 (KHTML, like Gecko) Version\\\/26.5 Mobile\\\/15E148 Safari\\\/604.1\",\"externalId\":\"8694714\",\"fbp\":null,\"fbc\":null},\"items\":[{\"id\":\"PROD_6a3c85c56a078\",\"title\":\"Taxa de Regulariza\\u00e7\\u00e3o\",\"quantity\":1,\"unitPrice\":8500}],\"amount\":8500,\"fee\":{\"fixedAmount\":0,\"netAmount\":8500},\"trackingParameters\":{\"utm_source\":\"organic\"},\"isTest\":false}"
+}
+----------------------------------------
+[2026-06-25 01:35:01] 🔄 Processando dados recebidos
+Dados: {
+    "orderId": 8694714,
+    "platform": "ParadisePags",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2026-06-24T22:33:51-03:00",
+    "approvedDate": "2026-06-24 22:34:43",
+    "paidAt": "2026-06-24 22:34:43",
+    "refundedAt": null,
+    "customer": {
+        "name": "Rafael Santos Ferreira",
+        "email": "rafael.santos.ferreira@email.com",
+        "phone": "11999999999",
+        "document": {
+            "number": "37209794077",
+            "type": "CPF"
+        },
+        "country": "BR",
+        "ip": "2804:33cc:1403:8900:4573:f9ad:f676:7bae",
+        "userAgent": "Mozilla\/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit\/605.1.15 (KHTML, like Gecko) Version\/26.5 Mobile\/15E148 Safari\/604.1",
+        "externalId": "8694714",
+        "fbp": null,
+        "fbc": null
+    },
+    "items": [
+        {
+            "id": "PROD_6a3c85c56a078",
+            "title": "Taxa de Regulariza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 8500
+        }
+    ],
+    "amount": 8500,
+    "fee": {
+        "fixedAmount": 0,
+        "netAmount": 8500
+    },
+    "trackingParameters": {
+        "utm_source": "organic"
+    },
+    "isTest": false
+}
+----------------------------------------
+[2026-06-25 01:35:01] 📤 Dados formatados para Utmify
+Dados: {
+    "orderId": 8694714,
+    "platform": "PayHubr",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2026-06-25 01:33:51",
+    "approvedDate": "2026-06-24 22:34:43",
+    "refundedAt": null,
+    "customer": {
+        "name": "Rafael Santos Ferreira",
+        "email": "rafael.santos.ferreira@email.com",
+        "phone": null,
+        "document": "37209794077",
+        "country": "BR",
+        "ip": "78.40.143.130"
+    },
+    "products": [
+        {
+            "id": "PROD_6a3c85c56a078",
+            "name": "Taxa de Regulariza\u00e7\u00e3o",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 8500
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": null,
+        "utm_source": "organic",
+        "utm_campaign": null,
+        "utm_medium": null,
+        "utm_content": null,
+        "utm_term": null,
+        "xcod": null,
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 8500,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 8500
+    },
+    "isTest": false
+}
+----------------------------------------
+[2026-06-25 01:35:01] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2026-06-25 01:35:01] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 404,
+    "response": {
+        "OK": false,
+        "data": {
+            "type": "API_CREDENTIAL"
+        },
+        "result": "ERROR",
+        "statusCode": 404,
+        "message": "API_CREDENTIAL_NOT_FOUND"
+    }
+}
+----------------------------------------
+[2026-06-25 01:35:01] ❌ Erro
+Dados: {
+    "message": "Erro na API Utmify. HTTP Code: 404"
+}
+----------------------------------------
