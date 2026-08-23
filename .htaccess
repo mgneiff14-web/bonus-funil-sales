@@ -1,15 +1,40 @@
-# SPA fallback para Apache (Hostinger)
+# SPA fallback para Apache (Hostinger / Railway)
 # Serve os arquivos/pastas reais; qualquer outra rota cai no index.html
+
+# O mod_dir redireciona /upsell-1 -> /upsell-1/ montando a URL ABSOLUTA com a
+# porta interna do Apache (na Railway, :8080), que não é exposta publicamente.
+# Desligamos aqui e tratamos cada caso nas regras abaixo.
+<IfModule mod_dir.c>
+  DirectorySlash Off
+</IfModule>
+Options -Indexes
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
 
-  # Não reescreve arquivos ou diretórios que existem de verdade
-  RewriteCond %{REQUEST_FILENAME} -f [OR]
-  RewriteCond %{REQUEST_FILENAME} -d
+  # 1) Arquivos que existem de verdade (assets, .php, imagens) -> servem direto
+  RewriteCond %{REQUEST_FILENAME} -f
   RewriteRule ^ - [L]
 
-  # Todo o resto -> index.html (roteamento do React Router)
+  # 2) /checkout é a única pasta que PRECISA da barra final: o HTML dela usa
+  #    caminhos relativos (js/..., images/...). Redirect montado com o host e o
+  #    protocolo que o cliente realmente usou — nunca com a porta interna.
+  #    302 (temporário) de propósito: 301 fica gravado no cache do navegador.
+  RewriteCond %{HTTPS} =on [OR]
+  RewriteCond %{HTTP:X-Forwarded-Proto} =https
+  RewriteRule ^checkout$ https://%{HTTP_HOST}/checkout/ [R=302,L]
+  RewriteRule ^checkout$ http://%{HTTP_HOST}/checkout/ [R=302,L]
+
+  # 3) Pastas das rotas do funil (/upsell-1..5, /resgatar, /faq, /historico,
+  #    /confirmar-saque, /back-redirect, /admin-funil, /checkout/) -> entrega o
+  #    index.html delas INTERNAMENTE, sem redirect nenhum. Os assets do bundle
+  #    são absolutos (/assets/...), então funciona com ou sem a barra final.
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.+?)/?$ $1/index.html [L]
+
+  # 4) Todo o resto -> index.html (roteamento do React Router)
   RewriteRule ^ index.html [L]
 </IfModule>
 
