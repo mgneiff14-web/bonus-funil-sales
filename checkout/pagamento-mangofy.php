@@ -10,8 +10,8 @@ date_default_timezone_set('America/Sao_Paulo');
 // CREDENCIAIS MANGOFY — preencher após receber as chaves
 // ===================================================================
 define('MANGOFY_BASE_URL',   'https://checkout.mangofy.com.br');
-define('MANGOFY_API_KEY',    '28cd7597c0bd1e0263ff4a307c10e1d07cj0y1qsip8q7tjir0rirym9zjba3bl');
-define('MANGOFY_STORE_CODE', 'fa851fcddf25be2f61468f429ea16aa4');
+define('MANGOFY_API_KEY',    '2117c6b06b47cfb76976f43f153cdc70dtegpg88igjplxz1mwdt7doy2unek8a');
+define('MANGOFY_STORE_CODE', 'b90bd91dbd493f1b128f9ed6c53ee00d');
 // URL que a Mangofy vai chamar quando o PIX for pago
 define('MANGOFY_WEBHOOK_URL', 'https://' . ($_SERVER['HTTP_HOST'] ?? 'seusite.com') . '/checkout/webhook-mangofy.php');
 // UTMify
